@@ -1,0 +1,24 @@
+<article class="h-entry m2m-entry position-relative m2m-transition-opacity-03s my-5">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <span class="p-category text-uppercase initialism border rounded bg-light py-1 px-2">{{ category | upcase | replace:"-"," " }}</span>
+  {% endfor %}
+  <h2 class="p-name my-3"><a class="m2m-link stretched-link text-decoration-none" href="{{ post.url }}" title="Read the post">{{ post.title }}</a></h2>
+  {%- if post -%}
+    {% assign date = post.date %}
+  {%- elsif page -%}
+    {% assign date = page.date %}
+  {%- endif -%}
+  <p class="mb-3">
+    <span class="visually-hidden">By <span class="p-author h-card">Simone Silvestroni</span></span>
+    <time class="dt-published m2m-font-micro" datetime="{{ date | date_to_xmlschema }}" itemprop="dateCreated">{{ date | date: "%-d %B %Y" }}</time>
+  </p>
+  <div class="e-content">
+    <p class="p-summary text-start mt-2">{{ post.excerpt | markdownify | strip_html }}</p>
+  </div>
+</article>
+<hr class="visually-hidden">

@@ -1,0 +1,92 @@
+{%- include site-head.html %}
+<body class="layout-{{ page.layout }} {% if page.is_post %}post{% elsif page.type %}{{ page.type }}{% else %}page{% endif %}-{{ page.title | slugify }}" id="top">
+{% comment %}
+  *-------------------------
+  Header
+  -------------------------*
+{% endcomment %}
+{% include site-header.html %}
+<main class="h-entry m2m-main">
+  <article class="m2m-entry">
+    <header class="pt-5">
+      <div class="container m2m-container" id="m2m-content">
+        {% comment %}
+          *-------------------------
+          Main title
+          -------------------------*
+        {% endcomment %}
+        <h1 class="p-name text-start mb-0">
+          {%- if page.url == "/" -%}<strong>{{ site.brand.ssil_pitch }}</strong>
+          {% else %}
+            {%- if page.type == "tag" or page.type == "category" -%}{% endif %}{%- if page.type == "tag" %}{{ page.title | capitalize }}{% else %}{{ page.title }}{% endif %}
+          {% endif %}
+        </h1>
+        {% comment %}
+          *-------------------------
+          Summary
+          -------------------------*
+        {% endcomment %}
+        {%- if page.url == "/" -%}
+        <p class="p-summary lead mt-3 mb-0">{{ site.brand.ssil_intro }} <a class="ps-2" href="/about/" title="About page"><strong>Read more</strong>&nbsp;→</a></p>
+        {% endif %}
+        {%- if page.type == "tag" or page.type == "category" -%}
+        <p class="p-summary lead mt-3 mb-0">🏷 Archive page for the {% if page.type == "tag" %}tag.{% elsif page.type == "category" %}category.{% endif %}</p>
+        {% endif %}
+        {% unless page.layout == 'note' %}
+        {%- if page.excerpt %}
+        <p class="p-summary lead mt-3 mb-0">
+          {%- if page.collection == 'webdesign' %}
+          {{ page.summary }}
+          {% else %}
+          {{ page.excerpt }}</p>
+          {% endif %}
+        {% endif -%}
+        {% endunless %}
+        {%- if page.collection == 'webdesign' or page.collection == 'sounddesign' or page.collection == 'music' -%}
+        <p class="mt-4 mb-0">
+          <span class="p-category rounded border bg-light py-1 px-2">
+            <span>Project type: </span>
+            <a class="m2m-link text-uppercase p-1" href="{% unless page.type == "music" %}/projects/#{{ page.type | slugify }}{% endunless %}{% if page.type == "music" %}/music/{% endif %}"><span class="p-category">{% unless page.type == "music" %}{{ page.type }}{% endunless %}{% if page.type == "music" %}{{ page.subtype }}{% endif %}</span></a>
+          </span>
+        </p>
+        {% endif -%}
+      </div>
+    </header>
+    {% comment %}
+      *-------------------------
+      Content
+      -------------------------*
+    {% endcomment %}
+    <div class="container m2m-container my-5">
+      {{ content }}
+    </div>
+  </article>
+</main>
+{% comment %}
+  *-------------------------
+  Footer
+  -------------------------*
+{% endcomment %}
+{% include site-footer.html %}
+{% comment %}
+  *-------------------------
+  Javascript
+  -------------------------*
+{% endcomment %}
+{%- if page.url contains '/search' or page.url contains '404.html' -%}
+{%- if jekyll.environment == "production" %}
+<script src="/assets/js/search-ssil.min.js"></script>
+{% else %}
+<script src="/assets/js/fetch.js"></script>
+<script src="/assets/js/search.js"></script>
+{% endif -%}
+{%- endif -%}
+{%- if page.is_post or page.collection == 'notes' -%}
+{%- if jekyll.environment == "production" %}
+<script src="/assets/js/webmention.min.js" data-prevent-spoofing="true" async></script>
+{%- else -%}
+<script src="/assets/js/webmention.js" async></script>
+{% endif -%}
+{% endif -%}
+</body>
+</html>

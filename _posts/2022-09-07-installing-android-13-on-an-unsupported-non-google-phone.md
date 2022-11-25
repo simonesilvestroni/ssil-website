@@ -19,18 +19,18 @@ Xiaomi already stated that *no new Android updates* would be made available for 
 
 A few more or less important further motives, in order of annoyance:
 
-1. I’d been having issues with MIUI recently, mostly incomprehensible random reboots and boot loops. Reinstalling the OS, a time-consuming procedure, didn’t fix them.
-2. MIUI activates by default a ton of “suggested” features, which is a preposterous euphemism for invasive ads popping up in core apps at all times. The operation of deactivating them is per se tiresome, as they’re all scattered around numerous settings.
-3. The default OS is bloated by apps that cannot be removed. Also, despite having set Firefox as my default browser, they keep insisting on opening their own MI browser — which has been found to be [akin to spyware](https://thehackernews.com/2020/05/xiaomi-browser-history.html) — from links in core apps.
-4. Every single alternative launcher failed to work in the long term, with issues that regularly crept up and increased in time. Maybe it was because of Xiaomi’s hyper-aggressive battery policies, I don’t know and don’t even care anymore.
+- I’d been having issues with MIUI recently, mostly incomprehensible random reboots and boot loops. Reinstalling the OS, a time-consuming procedure, didn’t fix them.
+- MIUI activates by default a ton of “suggested” features, which is a preposterous euphemism for invasive ads popping up in core apps at all times. The operation of deactivating them is per se tiresome, as they’re all scattered around numerous settings.
+- The default OS is bloated by apps that cannot be removed. Also, despite having set Firefox as my default browser, they keep insisting on opening their own MI browser — which has been found to be [akin to spyware](https://thehackernews.com/2020/05/xiaomi-browser-history.html) — from links in core apps.
+- Every single alternative launcher failed to work in the long term, with issues that regularly crept up and increased in time. Maybe it was because of Xiaomi’s hyper-aggressive battery policies, I don’t know and don’t even care anymore.
 
 ## First step: unlock the device
 
 Most Xiaomi devices come factory locked, which means it’s impossible to rewrite the bootloader without unlocking. An obvious note: the procedure voided any type of warranty or support from the manufacturer&nbsp;—&nbsp;which I didn’t care for.
 
-1. **Enabled developer options** in `Settings > My Device` I tapped repeatedly on the MIUI version, until a pop-up message *You are now a developer!* appeared on screen.
-2. **USB debugging**: activated *USB debugging* and *Install via USB* in `Settings > Additional Settings > Developer Options`.
-3. **Unlocked** through [Xiaomi’s Unlock app](https://www.miui.com/unlock/index_en.html), which required a Windows machine.
+- **Enabled developer options** in `Settings > My Device` I tapped repeatedly on the MIUI version, until a pop-up message *You are now a developer!* appeared on screen.
+- **USB debugging**: activated *USB debugging* and *Install via USB* in `Settings > Additional Settings > Developer Options`.
+- **Unlocked** through [Xiaomi’s Unlock app](https://www.miui.com/unlock/index_en.html), which required a Windows machine.
 
 ## Second step: custom recovery bootloader
 
@@ -60,9 +60,7 @@ When the OrangeFox recovery had booted up again, I tapped on the ROM .zip file (
 
 Another reboot later, the animated Google logo told me that everything was going fine. Android 13 was installing! The classic Android setup followed.
 
-## Outcome
-
-### Improvements
+## Improvements
 
 Pretty much everything I was expecting worked, and some more. The four motives listed in the above *Why?* chapter have been fulfilled by this radical change.
 
@@ -80,12 +78,12 @@ I’ll probably want to check one of the Google-free alternatives such as [Linea
 
 I don’t sync the phone with any cloud, I use the open source and private [Syncthing](https://syncthing.net/) to help myself with contacts and copying or deleting pictures from the phone to macOS and viceversa. My Xiaomi Redmi Note 7 (non Pro, apparently) is now seen as “Pixel 6 Pro”.
 
-### Issues
+## Issues
 
 In two weeks, I’ve only experienced two minor problems, both connected to the same feature:
 
-1. I seem to be incapable of shooting QR codes directly. I have to photograph them with the camera, and then load the photo in a QR reader. Not so big a deal.
-2. The camera sometimes freezes on loading. To unblock, I just have to tap on a different scenario: portrait, night mode or whichever is there, and go back to the one I need. Again, no biggie.
+- I seem to be incapable of shooting QR codes directly. I have to photograph them with the camera, and then load the photo in a QR reader. Not so big a deal.
+- The camera sometimes freezes on loading. To unblock, I just have to tap on a different scenario: portrait, night mode or whichever is there, and go back to the one I need. Again, no biggie.
 
 Note: unlike several bug reports on LineageOS’ forums about the Redmi Note 7 camera which is only working at low resolutions, with this Android 13 ROM I can shoot pictures at the maximum resolution offered by the hardware.
 
@@ -95,5 +93,6 @@ If, for whatever reason, I wish to go back to MIUI, all I have to do is download
 
 ## Edit: A month later
 
-1. The whole "Pro/non-Pro" issue was my fault. Apparently I had a [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_Effect) on my own — in fact, I've found the original box, which clearly states it's a Redmi Note 7, not a Note 7 Pro.
-2. Issue number one mentioned above, related to QR codes, doesn't exist anymore. I've been using a different app which doesn't have the same problem. Whenever I have to load up the camera to shoot a QR code from different apps (i.e. Bitwarden, in case of new TOTPs), there it can freeze. To solve it, I just need to open the Google Camera app and go back: it works.
+The whole "Pro/non-Pro" issue was my fault. Apparently I had a [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_Effect) on my own — in fact, I've found the original box, which clearly states it's a Redmi Note 7, not a Note 7 Pro.
+
+The issue related to QR codes, doesn't exist anymore. I've been using a different app which doesn't have the same problem. Whenever I have to load up the camera to shoot a QR code from different apps (i.e. Bitwarden, in case of new TOTPs), there it can freeze. To solve it, I just need to open the Google Camera app and go back: it works.

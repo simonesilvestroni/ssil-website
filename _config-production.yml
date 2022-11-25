@@ -1,9 +1,5 @@
 exclude:
-  - node_modules/
-  - sass/
   - README.md
-  - package.json
-  - package-lock.json
   - assets/css/ssil.css
   - assets/js/fetch.js
   - assets/js/search.js

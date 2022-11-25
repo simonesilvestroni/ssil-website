@@ -1,12 +1,17 @@
 ---
-layout: page
-title: 'How I Use Internet'
-date: '2022-11-10 10:14:30'
-last_modified_at: '2022-11-10 10:14:34'
+title: 'How I use the internet'
+date: '2022-11-23 17:21:41'
+last_modified_at: '2022-11-23 17:21:44'
+categories:
+  - 'Technology'
+tags:
+  - internet
+  - web
+  - rss
+  - social media
+  - email
 description: "A brief description of how I use the internet in 2022, two years after leaving the major social networks."
-excerpt: 'Inspired by Michael Harley’s <a href="https://obsolete29.com/posts/2022/11/07/how-i-internet/">How I internet</a>, which was inspired by Cassey Lottman’s, <a href="https://www.cassey.dev/posts/2022-11-05-my-internet/">My Internet</a>, I’m sharing how I spend my time online.'
-permalink: '/how-i-use-internet/'
-toc: true
+excerpt: 'Inspired by Michael Harley’s <a href="https://obsolete29.com/posts/2022/11/07/how-i-internet/">How I Internet</a>, which was inspired by Cassey Lottman’s, <a href="https://www.cassey.dev/posts/2022-11-05-my-internet/">My Internet</a>, I’m sharing how I spend my time online.'
 ---
 ## E-mail
 
@@ -56,7 +61,7 @@ I started in the 1990s with BBSes and Usenet newsgroups. Still missing both.
 
 ## Personal and work websites
 
-[Work on my website](/colophon/) is performed manually, after years on WordPress. It’s a minimalistic approach which perfectly suits the need to cut down on bloat and (digital) noise. I use Jekyll with its Liquid template language, writing posts in Markdown and deploying to Netlify. I love the process and it doesn’t cost a dime. Along with Mastodon, the blog is my way of reaching out.
+[Work on my website]({{ site.url }}/about/#about-the-website) is performed manually, after years on WordPress. It’s a minimalistic approach which perfectly suits the need to cut down on bloat and (digital) noise. I use Jekyll with its Liquid template language, writing posts in Markdown and deploying to Netlify. I love the process and it doesn’t cost a dime. Along with Mastodon, the blog is my way of reaching out.
 
 I started bloggin in March 2002.
 
@@ -72,8 +77,4 @@ While I still prefer e-mail for communicating with people, I have an account on 
 
 I used IRC for a very long time. Don’t even know why I stopped, maybe the [network effect](https://en.wikipedia.org/wiki/Network_effect).
 
----
-
-I also maintain a [/uses page](/uses/) with an *excessively* detailed list of equipment, both hardware and software.
-
-<span class="p-category dt-updated rounded initialism border bg-light py-2 px-2">Last update: <kbd>{{ page.last_modified_at }}</kbd></span>
+I also maintain a [/uses page](/uses/) with a detailed list of equipment, both hardware and software.

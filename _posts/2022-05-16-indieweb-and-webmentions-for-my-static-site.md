@@ -3,7 +3,7 @@ title: 'Indieweb and webmentions for my static site'
 date: '2022-05-16 12:47:30'
 last_modified_at: '2022-05-16 12:47:34'
 categories:
-  - 'Web design'
+  - 'Small web'
 tags:
   - 'front-end development'
   - jekyll
@@ -18,9 +18,8 @@ syndicate:
     url: https://news.indieweb.org/en
   - name: Mastodon
     url: https://indieweb.social/@m2m/108312049281191498
-toc: true
 ---
-The first time I’ve found about webmentions was when [Silvia](https://silviamaggidesign.com) suggested an article by [Chris Aldrich](https://boffosocko.com/) on *A List Apart*[^2]. His article also brought the discovery of [Indieweb](https://indieweb.org/) and the concept of a [small web](https://benhoyt.com/writings/the-small-web-is-beautiful/), free from the corporate vision. It perfectly fit with the way I see the internet and communication in general.
+The first time I’ve found about webmentions was when [Silvia](https://silviamaggidesign.com) suggested an article by [Chris Aldrich](https://boffosocko.com/) on *A List Apart* [^2]. His article also brought the discovery of [Indieweb](https://indieweb.org/) and the concept of a [small web](https://benhoyt.com/writings/the-small-web-is-beautiful/), free from the corporate vision. It perfectly fit with the way I see the internet and communication in general.
 
 A couple of years later, after I’d decided to leave social media[^1] and turn my WordPress blog into a static website, I chose not to implement a third-party commenting system. Instead, I went back to consider webmentions. A [W3C recommendation](https://www.w3.org/TR/webmention/), it’s a *decentralized* way to interact with other websites’ posts enabling replies, likes, reposts and more.
 
@@ -44,7 +43,7 @@ The following step-by-step process works on a Jekyll-based website. For Hugo use
 
 > IndieAuth.com is part of the IndieWeb movement to take back control of your online identity. Instead of logging in to websites as "you on Twitter" or "you on Facebook", you should be able to log in as just "you". We should not be relying on Twitter or Facebook to provide our authenticated identities, we should be able to use our own domain names to log in to sites everywhere.
 
-IndieAuth required `minutestomidnight.co.uk` to have a link to providers such as GitHub:
+IndieAuth required `simonesilvestroni.com` to have a link to providers such as Github:
 
 ```html
 <!-- Anywhere in the homepage <body> -->
@@ -55,15 +54,15 @@ IndieAuth required `minutestomidnight.co.uk` to have a link to providers such as
 </div>
 ```
 
-It’s possible to do the same with a `<link>` tag in the `<head>`, which would be invisible in the page. After checking that my GitHub account had a link back to my homepage in the [profile settings](https://github.com/settings/profile), I entered the domain URL <kbd>https://minutestomidnight.co.uk</kbd> in webmention.io, which returned a confirmation screen. Note: the GPG method was added later.
+It’s possible to do the same with a `<link>` tag in the `<head>`, which would be invisible in the page. After checking that my GitHub account had a link back to my homepage in the [profile settings](https://github.com/settings/profile), I entered the domain URL <kbd>https://simonesilvestroni.com</kbd> in webmention.io, which returned a confirmation screen. Note: the GPG method was added later.
 
 {% include pattern-figure.html image="/assets/images/indieauth.jpeg" alt="IndieAuth screenshot after adding the GitHub link" caption="IndieAuth screenshot after adding the GitHub link" width="600" height="430" %}
 
 After clicking the provider green button, I signed-in to GitHub to complete the authentication. This needed to be done once, or whenever I'm logged out from GitHub. Webmention.io dashboard was now up and running. Time to copy the code required to start accepting webmentions.
 
 ```html
-<link rel="webmention" href="https://webmention.io/minutestomidnight.co.uk/webmention" />
-<link rel="pingback" href="https://webmention.io/minutestomidnight.co.uk/xmlrpc" />
+<link rel="webmention" href="https://webmention.io/simonesilvestroni.com/webmention" />
+<link rel="pingback" href="https://webmention.io/simonesilvestroni.com/xmlrpc" />
 ```
 
 I’ve added the above in an include file named `site-head.html` ([source](https://github.com/simonesilvestroni/m2m-website/blob/master/_includes/site-head.html)) which contains a block of code from the DOCTYPE declaration to `</head>`.
@@ -173,13 +172,13 @@ This is how I applied microformats classes to the post layout:
   <!-- 7️⃣ hcard, hidden -->
   <span class="visually-hidden">
     <span class="p-author h-card">
-      <img class="u-photo" src="https://minutestomidnight.co.uk/assets/images/simonesilvestroni-avatar-uphoto.png" alt="Minutes to Midnight's avatar" width="48" height="48">
-      <a class="p-name" href="https://minutestomidnight.co.uk" rel="author"><strong>Simone Silvestroni</strong></a>
+      <img class="u-photo" src="https://simonesilvestroni.com/assets/images/simonesilvestroni-avatar-uphoto.png" alt="Minutes to Midnight's avatar" width="48" height="48">
+      <a class="p-name" href="https://simonesilvestroni.com" rel="author"><strong>Simone Silvestroni</strong></a>
     </span>
-    <a class="u-url u-uid" href="https://minutestomidnight.co.uk/blog/build-a-human-readable-rss-with-jekyll/" title="Permalink">Permalink: <em>A human-readable RSS feed with Jekyll</em></a>
+    <a class="u-url u-uid" href="https://simonesilvestroni.com/blog/build-a-human-readable-rss-with-jekyll/" title="Permalink">Permalink: <em>A human-readable RSS feed with Jekyll</em></a>
     <time class="dt-published" datetime="2022-05-02T10:36:05+02:00" itemprop="dateCreated">2 May 2022</time>
     <data class="p-org" value="Minutes to Midnight"></data>
-    <data class="u-email" rel="me" value="mailto:contact@minutestomidnight.co.uk"></data>
+    <data class="u-email" rel="me" value="mailto:me@simonesilvestroni.com"></data>
     <data rel="me" value="https://minutestomidnight.bandcamp.com/"></data>
     <data rel="me" value="https://github.com/simonesilvestroni/"></data>
     <data rel="me" value="https://indieweb.social/@m2m"></data>
@@ -200,7 +199,7 @@ This is how I applied microformats classes to the post layout:
 </article>
 ```
 
-{: .m2m-bg-alpha .border .p-4 }
+{: .m2m-bg-alpha .border .border-3 .rounded .p-4 }
 🚨 **Note**: the order in which these tags are added to the code — as long as they all are inside the <kbd>h-entry</kbd> — is irrelevant.
 
 The following is a screenshot — cut to shorten the content — of a blog post parsed and validated by Indiewebify.
@@ -213,7 +212,7 @@ As stated earlier, I've only been using webmentions in the form of *replies* and
 
 #### Notes
 
-Even though I can use my blog posts to reply or like other people’s posts — as I’ve done [here](https://minutestomidnight.co.uk/blog/life-after-social-networks/) and [here](https://minutestomidnight.co.uk/blog/escape-from-social-media/) — I’ve recently decided to employ a **second type of layout**: notes. A common format in the Indieweb, this is how they’re defined:
+Even though I can use my blog posts to reply or like other people’s posts, I’ve recently decided to employ a **second type of layout**: notes. A common format in the Indieweb, this is how they’re defined:
 
 > A [note](https://indieweb.org/note) is a post that is typically short unstructured plain text, written and posted quickly, that has its own permalink page.
 
@@ -225,11 +224,7 @@ My note layout is a shrinked version of the post layout. No Liquid logic, just a
 
 When I start writing a note, I manually quote the person I’m replying to, link their name to their post and add `u-in-reply-to`. In case I’m responding to someone who mentioned me from their blog, I also quote my original post, so that my comment would also appear on my site as a reply to the previous mention. This is how I get a working comment thread.
 
-A live example in my [post about automation](https://minutestomidnight.co.uk/blog/automation-for-my-blog-publishing-workflow/#comments):
-
-{% include pattern-figure.html image="/assets/images/webmention-note-ex.png" alt="A comment thread made of webmentions" caption="A comment thread made of webmentions" width="500" height="327" %}
-
-The permalink on my name leads to the [single note](https://minutestomidnight.co.uk/note/2022-05-12-12-10-44/), and although the URLs are stripped in the rendered webmention, they're present in the source code:
+The permalink on my name leads to the single note, and although the URLs are stripped in the rendered webmention, they're present in the source code:
 
 ```markdown
 {% raw %}[@wouter](https://brainbaking.com/notes/2022/05/11h17m44s06/){: .u-in-reply-to } I have now updated my [original post]({{ site.url }}/blog/automation-for-my-blog-publishing-workflow/) and printed the code from the shell [...]{% endraw %}
@@ -266,20 +261,18 @@ I tried other venues to get webmention notifications, but I needed [Max Gleniste
 
 ## Future improvements
 
-- I'd like to stop relying on a third-party service and especially Javascript, because it's making comments not accessible if scripts are disabled and this makes me cringe. An alternative could be writing something in Ruby or trying Netlify functions.
-- Based on a fruitful [debate on Mastodon](https://indieweb.social/web/@wouter@chat.brainbaking.com/108284121055089843), I think I'll be removing avatars, likes and reposts from the comment section.
-- Since I started configuring [micropub](https://indieweb.org/Micropub), I might want to use it for reply notes using one of the [online clients](https://indieweb.org/Micropub/Clients). Not sure, not urgent.
+I'd like to stop relying on a third-party service and especially Javascript, because it's making comments not accessible if scripts are disabled and this makes me cringe. An alternative could be writing something in Ruby or trying Netlify functions.
 
 ## Useful articles
 
-{: .list-group .list-group-flush .ps-0 }
-- {: .list-group-item .ps-0 } 🔗 [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention){: .m2m-link } by Aaron Parecki
-- {: .list-group-item .ps-0 } 🔗 [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/){: .m2m-link } by Max Glenister
-- {: .list-group-item .ps-0 } 🔗 [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/){: .m2m-link } by Keith J. Grant
-- {: .list-group-item .ps-0 } 🔗 [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/){: .m2m-link } by David Yates
-- {: .list-group-item .ps-0 } 🔗 [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/){: .m2m-link } by Peter Molnar
-- {: .list-group-item .ps-0 } 🔗 [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/){: .m2m-link } by Vincent Pickering
-- {: .list-group-item .ps-0 } 🔗 [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/){: .m2m-link } by Wouter Groeneveld
+{: .list-unstyled .ps-0 }
+- 🔗 [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention){: .m2m-link } by Aaron Parecki
+- 🔗 [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/){: .m2m-link } by Max Glenister
+- 🔗 [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/){: .m2m-link } by Keith J. Grant
+- 🔗 [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/){: .m2m-link } by David Yates
+- 🔗 [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/){: .m2m-link } by Peter Molnar
+- 🔗 [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/){: .m2m-link } by Vincent Pickering
+- 🔗 [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/){: .m2m-link } by Wouter Groeneveld
 
 ---
 

@@ -1,58 +1,24 @@
 ---
 layout: page
 title: 'Projects'
-date: '2021-11-08'
-last_modified_at: '2022-04-13 15:37:13'
-description: 'Alternating jobs between sound and web design, I’ve worked on many projects since the 1990s. A few highlights of the more representative.'
-excerpt: 'Alternating jobs between sound and web design, I’ve worked on many projects since the 1990s. The following are a selection of highlights for <a href="#sound-design"><strong>sound design</strong></a>, <a href="#web-design"><strong>web design</strong></a>, <a href="#articles"><strong>articles</strong></a> and <a href="#spotify-playlists"><strong>Spotify playlists</strong></a>. On a separate page it’s possible to read about my <a href="/music/"><strong>original music</strong></a>.'
+date: '2022-11-22 21:06:03'
+last_modified_at: '2022-11-22 21:06:06'
+description: 'I’ve worked on many projects since the 1990s. A few highlights of the more representative.'
+excerpt: 'I’ve worked on many projects since the 1990s. The following are a selection of highlights.'
 permalink: '/projects/'
 ---
-{: .text-uppercase .border-white .text-center .text-md-start }
-## Sound design
-
-{%- assign production = site.sounddesign | where: "subtype", "production" | reverse -%}
-{%- assign gameaudio = site.sounddesign | where: "subtype", "game audio" | reverse -%}
-{%- assign audioediting = site.sounddesign | where: "subtype", "audio editing" | reverse -%}
-{%- assign originalmusic = site.music | where: "type", "music" | reverse -%}
-{%- assign sounddesign = production | concat: gameaudio | concat: audioediting | concat: originalmusic -%}
-  
-{%- for project in sounddesign %}
-{% include card-project.html %}
-{% endfor %}
-
-{: .text-uppercase .border-white .text-center .text-md-start }
-## Web design
-
-There's also a [web design category](/blog/category/web-design/) in the blog, with insights and techniques.
-
 {%- assign webdesign = site.webdesign | reverse -%}
 
 {%- for project in webdesign %}
-{% include card-project.html %}
+{% include pattern-projectblock.html %}
 {% endfor %}
 
-{: .text-uppercase .border-white .text-center .text-md-start }
-## Articles
+<article class="h-entry m2m-entry my-5 py-3">
 
-{% assign ebook = site.pages | where: "permalink", "/projects/project-management/" %}
-{% assign pubs = site.pubs %}
-{% assign publications = ebook | concat:pubs %}
-{% for project in publications %}
-{% include card-project.html %}
-{% endfor %}
+<h2 class="fs-3 p-name my-3">A modern workflow for the multi-device web</h2>
 
-{: .text-uppercase .border-white .text-center .text-md-start }
-## Spotify playlists
+<p class="p-summary text-start mt-2">A process analysis that has led UI Farm Ltd to their workflow for delivering modern web solutions.</p>
 
-{: .mb-4 }
-If Spotify is your jam, here's a couple of playlists. The first features 36 songs where I played the bass:
+<a href="https://medium.com/ui-farm/how-we-work-a-modern-workflow-for-the-multi-device-web-4e0dcb081b5b" title="Read the article">Read the article ↗</a>
 
-{% include pattern-spotify.html id="1EC2Hm0xSywc5pITPMhuIA" type="playlist" height="290" margin="mt-3" %}
-
-{: .my-4 }
-The second playlist is made of 45 songs produced by me:
-
-{% include pattern-spotify.html id="6yRM57FJ9JKONDAXaLBAdx" type="playlist" height="290" margin="mt-3" %}
-
-{: .text-center .fs-4 .my-5 .py-5 }
-✍️ [Reach out to **hire me** →](/contact/)
+</article>

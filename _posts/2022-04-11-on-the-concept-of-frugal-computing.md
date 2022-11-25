@@ -3,10 +3,9 @@ title: On the concept of frugal computing
 date: '2022-04-11'
 last_modified_at: '2022-04-11 17:57:46'
 categories: 
-  - 'Facts'
+  - 'Sustainability'
 tags:
   - 'climate change'
-  - 'sustainability'
   - 'minimalism'
   - 'moore’s law'
 description: "Wim Vanderbauwhede on the need for low-carbon and sustainable computing and the path towards zero-carbon computing."

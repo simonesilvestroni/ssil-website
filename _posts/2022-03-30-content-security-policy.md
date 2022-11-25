@@ -91,7 +91,7 @@ After pasting the code in my site, I strip the inline `style="border: 0; [...]` 
 
 ## The code
 
-Here is my security policy, which grants an [`A+` on benchmarks](https://securityheaders.com/?q=minutestomidnight.co.uk&followRedirects=on). As you can see, i don't allow CSS and Javascript, either external or inline, from external sources. I'm also blocking the website, through `x-frame-options`, from being embedded in an `iframe`.
+Here is my security policy, which grants an [`A+` on benchmarks](https://securityheaders.com/?q=simonesilvestroni.com&followRedirects=on). As you can see, I don't allow CSS and Javascript, either external or inline, from external sources. I'm also blocking the website, through `x-frame-options`, from being embedded in an `iframe`.
 
 ```toml
 [[headers]]

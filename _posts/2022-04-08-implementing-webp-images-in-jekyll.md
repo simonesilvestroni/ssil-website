@@ -11,7 +11,7 @@ tags:
   - responsive images
   - static site
 description: "How I added WebP images to my Jekyll-based static site, obtaining new levels of optimization and performance."
-excerpt: 'How I added WebP images to my Jekyll-based static site, obtaining new levels of optimization and performance.'
+excerpt: 'Adding WebP images to my Jekyll-based static site, brings it to new levels of optimization and performance.'
 ---
 ## What is WebP
 
@@ -58,4 +58,4 @@ I created a `picture` element containing all the `srcset` needed for a full supp
 
 ## Results
 
-I got a double `100%` on GTMetrix, and improved my [512k club](https://512kb.club/#250) rank. I cut the loading time by a considerable amount in pages with multiple images. I'm now serving responsive images where needed, in WebP format where supported.
+I got a double `100%` on GTMetrix, and improved my [512k club](https://512kb.club/#100) rank. I cut the loading time by a considerable amount in pages with multiple images. I'm now serving responsive images where needed, in WebP format where supported.

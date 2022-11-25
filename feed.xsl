@@ -35,7 +35,7 @@
               <footer>Published: <time><xsl:value-of select="pubDate" /></time></footer>
             </article>
           </xsl:for-each>
-          <p class="about"><img src="/assets/images/favicons/favicon.svg" alt="Minutes to Midnight icon" width="24" height="24" /><a href="https://minutestomidnight.co.uk/about/">About Simone Silvestroni</a> (Minutes to Midnight).</p>
+          <p class="about"><img src="/assets/images/favicons/favicon.svg" alt="Minutes to Midnight icon" width="24" height="24" /><a href="https://simonesilvestroni.com/about/">About Simone Silvestroni</a> (Minutes to Midnight).</p>
         </main>
       </body>
     </html>

@@ -3,7 +3,7 @@ title: 'Automation for my static blog publishing workflow'
 date: '2022-05-10'
 last_modified_at: '2022-05-10 13:43:39'
 categories:
-  - 'Web design' 
+  - 'Small web' 
 tags:
   - 'macos'
   - 'automation'
@@ -13,6 +13,7 @@ tags:
   - 'jekyll'
   - 'sublime text'
   - 'front-end development'
+  - 'popular'
 description: 'How I’m currently managing writing new content in my Jekyll-based static blog, using Shortcuts on macOS.'
 excerpt: 'How I’m currently managing writing new content in my Jekyll-based static blog, using Shortcuts on macOS.'
 syndication: true
@@ -21,7 +22,6 @@ syndicate:
     url: https://news.indieweb.org/en
   - name: Mastodon
     url: https://indieweb.social/@m2m/108277577329784745
-toc: true
 ---
 Ever since I went live with a redesigned Jekyll-based website, I’ve been looking for ways to improve my publishing workflow. I prefer working with a static website rather than a CMS such as WordPress, yet there are methods to make this process more efficient. This is a work in progress, I’ll be adding new bits to this post in the future.
 
@@ -29,12 +29,14 @@ A few weeks ago I saw a few links posted on Mastodon about the frustrations of m
 
 I can understand the issues, yet none of them particularly apply to me. However, it’s true that I’ve been honing my process more and more, looking for a way where ideally I would end up clicking an icon or dragging a file into a folder and a few seconds later the post would be ready. Read [*Taking Shortcuts*](https://www.robinrendle.com/notes/taking-shortcuts/) by Robin Rendle to get what I’m talking about.
 
-I thought about it and asked *what are the most annoying parts of writing a new post?* Arguably, the answer would be twofold: first, **the [Front Matter](https://jekyllrb.com/docs/front-matter/) block**, which is the top YAML-based section in a static site generator post; second, **adding images**.
+I thought about it and asked *what are the most annoying parts of writing a new post?* Arguably, the answer would be twofold: first, the [Front Matter](https://jekyllrb.com/docs/front-matter/) block, which is the top YAML-based section in a static site generator post; second, adding images.
 
 ## My goals
 
-1. Streamline the process of writing new posts, where a sort of *wizard* would guide me throughout compiling all the repetitive bits until an editor appears and I just have to write the content.
-2. Improve the way I add images to a new post as much as I can. What I have in mind is to select one or more images, drag them onto an app and have them: 
+Streamline the process of writing new posts, where a sort of *wizard* would guide me throughout compiling all the repetitive bits until an editor appears and I just have to write the content.
+
+Improve the way I add images to a new post as much as I can. What I have in mind is to select one or more images, drag them onto an app and have them:
+
    - web-friendly renamed;
    - converted to WebP;
    - moved to `_assets/images`;
@@ -66,26 +68,26 @@ The following short video demonstrates the process in real time.
 
 {% include pattern-video.html id="oAO2caYnF08" %}
 
-{: .m2m-bg-alpha .border .p-3 .mb-5 .fs-5 }
+{: .m2m-bg-alpha .border .border-3 .rounded .p-3 .mb-5 .fs-5 }
 **Note**: when the Terminal is shown, there’s a Jekyll compile issue: that‘s my fault as I’ve done this video twice and forgot to delete the previous test post with the same title. 🙈
 
-Here is the whole routine of the _wizard_:
+Here is the whole routine of the wizard:
 
 {% include pattern-figure.html image="/assets/images/jekyll-automations-new-post.png" alt="Shortcuts app for creating a new Jekyll post" caption="Shortcuts app for creating a new Jekyll post" width="505" height="1517" %}
 
 #### Breakdown
 
-{: .list-group .list-group-flush .mt-0 .ps-0 }
-- {: .list-group-item .ps-0 }1️⃣ Asks for a post <kbd>title</kbd> and sets a variable using the input I provide in a pop-up.
-- {: .list-group-item .ps-0 }2️⃣ Same for the <kbd>category</kbd>.
-- {: .list-group-item .ps-0 }3️⃣ Same for a couple of <kbd>tags</kbd> (I can add more later if I need). It sets a variable containing an array of both my subsequent inputs.
-- {: .list-group-item .ps-0 }4️⃣ Asks for the description, which goes in my <kbd>description</kbd> field in Front Matter, used for SEO purposes.
-- {: .list-group-item .ps-0 }5️⃣ Same for the <kbd>excerpt</kbd> which gets printed below the main heading.
-- {: .list-group-item .ps-0 }6️⃣ Runs a bash script where the <kbd>title</kbd> variable is passed as an argument and does a few things quicker than using native Shortcuts elements:
-  - {: .my-2 }**Creates a file** in the correct folder, named with today’s date followed by the <kbd>title</kbd> variable (in the script I convert spaces with dashes and turn everything lowercase).
-  - {: .my-2 }**Adds the Front Matter** section and fills it with all the variables I previously created.
-  - {: .my-2 }**Launches my markdown editor Typora** which opens the file with a compiled Front Matter section.
-- {: .list-group-item .ps-0 }7️⃣ Runs an AppleScript that opens a minimized session in the Terminal with my alias for running the `npm` task that holds both Jekyll build and SASS compile actions:
+{: .list-unstyled .ps-0 }
+- 1️⃣ Asks for a post <kbd>title</kbd> and sets a variable using the input I provide in a pop-up.
+- 2️⃣ Same for the <kbd>category</kbd>.
+- 3️⃣ Same for a couple of <kbd>tags</kbd> (I can add more later if I need). It sets a variable containing an array of both my subsequent inputs.
+- 4️⃣ Asks for the description, which goes in my <kbd>description</kbd> field in Front Matter, used for SEO purposes.
+- 5️⃣ Same for the <kbd>excerpt</kbd> which gets printed below the main heading.
+- 6️⃣ Runs a bash script where the <kbd>title</kbd> variable is passed as an argument and does a few things quicker than using native Shortcuts elements:
+  - **Creates a file** in the correct folder, named with today’s date followed by the <kbd>title</kbd> variable (in the script I convert spaces with dashes and turn everything lowercase).
+  - **Adds the Front Matter** section and fills it with all the variables I previously created.
+  - **Launches my markdown editor Typora** which opens the file with a compiled Front Matter section.
+- 7️⃣ Runs an AppleScript that opens a minimized session in the Terminal with my alias for running the `npm` task that holds both Jekyll build and SASS compile actions:
 
 ```bash
 file=$(echo "$( date '+%Y-%m-%d-' )$1.md" | tr " " "-" | tr [:upper:] [:lower:])
@@ -94,17 +96,17 @@ touch ~/@ARCHIVE/2022/wwM2M/m2m-website/_posts/"$file" && echo -e "---\ntitle: '
 
 ### Adding images to a post with Shortcuts
 
-{: .m2m-bg-alpha .border .p-3 .fs-5 .mb-4 }
+{: .m2m-bg-alpha .border .border-3 .rounded .p-3 .fs-5 .mb-4 }
 🚨 **Opinionated sidenote** — When I used a CMS, I could drag a huge photo to a media library because it would take care of resizing — and maybe optimization through a plug-in or two. *Regardless of how much I could streamline that workflow* on a CMS, it’s not my cup of tea. I always think about [sustainability]({{ site.url }}/blog/on-the-concept-of-frugal-computing/); the idea of having a website carrying a redundant amount of images is sub-optimal.
 
 The process I follow for adding images to a blog post in Jekyll is made of 5 stages:
 
-{: .list-group .list-group-flush .mt-0 .ps-0 }
-- {: .list-group-item .ps-0 }1️⃣ Resize and compress so it’s web-safe and as light as possible, usually using [GraphicConverter](https://www.lemkesoft.de/en/products/graphicconverter/) and [ImageOptim](https://imageoptim.com/mac) on macOS.
-- {: .list-group-item .ps-0 }2️⃣ Rename to a web-friendly format.
-- {: .list-group-item .ps-0 }3️⃣ Make a `.webp` version.
-- {: .list-group-item .ps-0 }4️⃣ Move to the correct folder, in my case `_assets/images`.
-- {: .list-group-item .ps-0 }5️⃣ Add <kbd>width</kbd> and <kbd>height</kbd> to the `figure` tag.
+{: .list-unstyled .ps-0 }
+- 1️⃣ Resize and compress so it’s web-safe and as light as possible, usually using [GraphicConverter](https://www.lemkesoft.de/en/products/graphicconverter/) and [ImageOptim](https://imageoptim.com/mac) on macOS.
+- 2️⃣ Rename to a web-friendly format.
+- 3️⃣ Make a `.webp` version.
+- 4️⃣ Move to the correct folder, in my case `_assets/images`.
+- 5️⃣ Add <kbd>width</kbd> and <kbd>height</kbd> to the `figure` tag.
 
 So far, I’ve manually taken care of the first step. I have a Shortcuts automation in its infancy which is trying to deal with this. If I manage to reach the same level of compression/quality ratio as I do with GraphicConverter, I’ll make the switch.
 
@@ -112,13 +114,15 @@ Even though I tried to manage the whole process with Shortcuts, I have to split 
 
 Now, the images workflow is reduced to 2 steps:
 
-- **Renaming and copying images to Jekyll’s assets**: 
+**Renaming and copying images to Jekyll’s assets**: 
+
   - Select image(s)
   - Right-click
   - Quick actions
   - <kbd>M2M images</kbd>
 
-- **Inserting new images in a post**: 
+**Inserting new images in a post**: 
+
   - Select the image I want to add to my post from `_assets/images` 
   - Right-click
   - Quick actions
@@ -131,7 +135,7 @@ I can either right-click and use the quick actions or drag the image to the Dock
 
 {% include pattern-video.html id="K0AKv7aIxP8" %}
 
-{: .m2m-bg-alpha .border .p-3 .fs-5 }
+{: .m2m-bg-alpha .border-3 .rounded .p-3 .fs-5 }
 **Note**: I clearly didn’t optimize the size. In fact, the images used in the video are from my collection of desktop wallpapers. 🙂
 
 #### Breakdown

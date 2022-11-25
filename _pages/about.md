@@ -1,52 +1,52 @@
 ---
 layout: page
-title: 'Who I am'
-date: '2022-01-14'
-last_modified_at: '2022-04-13 15:14:31'
-description: 'A sound and web designer for two decades between Italy and the UK. I wrote a concept album about escaping war, which brought the moniker Minutes to Midnight.'
-excerpt: 'A sound and web designer for over two decades between Italy and the UK, I worked in game audio and wrote a concept album about escaping war. A more detailed <a href="/resume/"><strong>resume</strong></a> is available, or head over to an updated list of the <a href="/uses/"><strong>software and hardware</strong></a> that I’m using.'
+title: 'About'
+date: '2022-11-22 21:47:23'
+last_modified_at: '2022-11-22 21:47:26'
+description: 'A web designer for two decades between Italy and the UK.'
+excerpt: 'In the early 1990s, I started a side job in the publishing industry while graduating as a professional musician. A decade later I learned web design, fascinated by code as a digital evolution of my past experience with the printed page.'
 permalink: '/about/'
 ---
-## Audio and web
+As a web designer, in line with my origins, I still <em>strive for minimalism</em>. With a vast experience in front-end development and some back-end, UI design and custom WordPress systems, my main focus is on accessibility and sustainability through a relentless stack optimization.
 
-In the early 1990s, I started a side job in the publishing industry while graduating as a professional musician. A decade later I learned web design, fascinated by code as a digital evolution of my past experience with the printed page. In line with those origins, I still strive for minimalism.
+I also have a parallel career in audio as a professional musician, producer and game sound designer that I carry out under the collective moniker _Minutes to Midnight_.
 
-**As a web designer**, I’m an expert in front-end development, some back-end, UI design, custom WordPress systems, accessibility and sustainability through a relentless stack optimization.
+{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
+Check out my [audio work](https://minutestomidnight.co.uk) →
 
-After a long stint in a music studio acquiring recording skills, I became independent and landed a [game audio designer]({{ site.url }}/projects/sound-design/console-game-ruff-trigger/) role in 2002. I wrote an adaptive soundtrack while producing and implementing original sound effects. In the same period I started my first blog, writing about working long hours on a console video game while playing *Ico* during pauses. 
+## Other interests
 
-**As a sound designer**, I write and produce music from tracking to mastering, with mixing as my preferred stage. I’m also a professional bass player and a field recordist with Foley skills. I see game audio as the ultimate audio-visual narrative medium.
+An avid reader, I follow recent tech trends through online media, Mastodon, workshops and newsletters. Trivia: I have a longstanding ~~obsession~~ fascination for typography.
 
-## Passions and interests
+Constantly looking for a way to complete a task in less and more efficient steps, I ended up writing an ebook about [project management](https://minutestomidnight.co.uk/projects/project-management/).
 
-I'm an avid reader, eager to know the latest about the audio and tech industries. I've always loved to lose myself in history essays, personal blogs and dystopian novels. Trivia: I have a longstanding ~~obsession~~ fascination for typography.
+{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
+Read more in my [resume](/resume/) →
 
-Constantly looking for a way to complete a task in less and more efficient steps, I ended up writing an ebook about [project management for musicians]({{ site.url }}/projects/project-management/).
+## About the website
 
-## Name and logo
+I've been managing all my activies under the moniker _Minutes to Midnight_ — the name I'd trademarked in the UK in 2017. As a consequence of the decision to split audio and web work, I bought my personal domain and moved the web design related content in here.
 
-Before releasing the theatrical concept [_After 1989_]({{ site.url }}/music/after-1989/), I wanted to establish a connection between work and personal history. The foundation for Minutes to Midnight’s name and logo is a tie with the unstable and risky world I grew up in during the Cold War.
+The website has been developed from scratch using:
 
-The expression _minutes to midnight_ is a reference to the [Doomsday Clock](https://en.wikipedia.org/wiki/Doomsday_Clock), while the logo is derivative of the radiation symbol combined with the glyph used in fallout shelter signs.
+- [Jekyll 4.2.1](https://jekyllrb.com/)
+- [Markdown (extended)](https://www.markdownguide.org/getting-started/)
+- Vanilla javascript for [search module](https://github.com/daviddarnes/jekyll-search-js) and [webmentions](http://beesbuzz.biz)
+- Table of contents Liquid code by [Vladimir "allejo" Jimenez](https://github.com/allejo/jekyll-toc)
+- Bash for building purposes
+- [Github](https://github.com/simonesilvestroni/m2m-website)
+- [Netlify](https://netlify.com)
 
-## Website
+### Accessibility and sustainability
 
-Details about this website can be found in the [colophon]({{ site.url }}/colophon/).
+No errors for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> detected on [WAVE](https://wave.webaim.org/report#/https://simonesilvestroni.com/) and `100` scored on Google Lighthouse.
 
-## Contacts
+Only `0.04g` of CO2 is produced every time someone visits the homepage, which is cleaner than 96% of web pages tested. The website is running on sustainable energy.
 
-Find the best way to [get in touch]({{ site.url }}/contact/), and my [PGP public key]({{ site.url }}/pgp/).
+I [do not request third-party resources](https://aremythirdpartiesgreen.com/test/76e7ac7370d84f1fabd254608e118ff4), except for the blog posts, which are calling `webmention.io` to render web mentions.
 
-## Press photos
+Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.4` seconds and weigh `100kb` (uncompressed). 
 
-Photography by <a href="https://silviamaggidesign.com">Silvia Maggi</a>.
+## Copyright
 
-{% include pattern-figure.html image="/assets/images/gallery-press/a_in-cambridge.jpg" alt="Simone Silvestroni in Cambridge, standing, with the Warwick Thumb Bass" caption="Standing, with a Warwick Thumb Bass" width="1600" height="1066" %}
-
-{% include pattern-figure.html image="/assets/images/gallery-press/b_in-cambridge.jpg" alt="Simone Silvestroni, playing the Warwick Thumb Bass" caption="Playing the Warwick Thumb Bass" width="1600" height="1066" %}
-
-{% include pattern-figure.html image="/assets/images/gallery-press/c_in-the-studio.jpg" alt="In the studio (Cambridge)" caption="In the studio (Cambridge)" width="1600" height="1066" %}
-
-{% include pattern-figure.html image="/assets/images/gallery-press/e_in-the-studio.jpg" alt="In the studio (Cambrdige), playing a fretless Fender Jazz bass" caption="In the studio (Cambrdige), playing a fretless Fender Jazz bass" width="1600" height="1066" %}
-
-{% include pattern-figure.html image="/assets/images/gallery-press/d_bass-strap.jpg" alt="Bass strap with West Berlin pin attached" caption="Bass strap with West Berlin pin attached" width="1600" height="1066" %}
+The _text content_ of this website is [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). It means you are free to share — copy and redistribute the material in any medium or format, adapt — remix, transform, and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.

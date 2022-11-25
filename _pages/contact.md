@@ -1,25 +1,13 @@
 ---
 layout: page
 title: Contacts
-date: '2021-11-08'
-last_modified_at: '2022-04-29 16:59:05'
-description: 'Interested in hiring me for your next project, or just want to connect? Find all the info, including (some) social media and my irregular newsletter.'
-excerpt: 'I’m currently available for both web and sound design projects. The best way to get in touch is to reach out via email and we’ll take it from there.<br><br><span class="fs-3">✍️ <a href="mailto:contact@minutestomidnight.co.uk"><strong>Send me an email</strong> →</span></a>'
+date: '2022-11-22 21:36:18'
+last_modified_at: '2022-11-22 21:36:22'
+description: 'The best way to get in touch is to reach out via email and we’ll take it from there.'
+excerpt: 'The best way to get in touch is to reach out via email and we’ll take it from there.'
 permalink: '/contact/'
 ---
-## Music production or bass tracks
-
-If you need bass tracks or production, it’s also possible to hire me through <a href="https://soundbetter.com/profiles/206552-minutes-to-midnight">SoundBetter ↗︎</a> — a safe and secure platform for freelance musicians.
-
-## Follow on social media
-
-While [I’m not]({{ site.url }}/blog/escape-from-social-media/) on Twitter, anything Meta or TikTok, it’s possible to get in touch on several platforms:
-
-<ul>
-{% for item in site.data.nav-social -%}
-<li class="py-1"><a href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a></li>
-{% endfor %}
-</ul>
+✍️ [Send me an email →](mailto:me@simonesilvestroni.com)
 
 ## PGP key
 

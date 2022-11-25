@@ -1,24 +1,21 @@
 ---
 layout: page
 title: Blogroll
-date: '2022-04-03'
-last_modified_at: '2022-04-05 16:51:06'
-description: 'My personal blogroll, listing blogs and websites I read. It starts with a curated platform that has no algorithm.'
-excerpt: 'A partial list of websites and blogs I read either through RSS, the Fediverse or both.'
+date: '2022-11-22 18:37:49'
+last_modified_at: '2022-11-25 14:29:53'
+description: 'My personal blogroll, listing blogs and websites I read within a curated platform that has no algorithm.'
+excerpt: 'A partial list of websites and blogs I enjoy reading through RSS. I also maintain an <a href="https://minutestomidnight.co.uk/blogroll/">audio and music related blogroll</a>.'
 toc: false
 permalink: '/blogroll/'
 ---
-## Everything
+## General
 
 - [Ye Olde Blogroll](https://blogroll.org/) — A humanly curated list of fine personal & independent blogs that are updated regularly. _No algorithms ever_.
 
-## Audio, gaming
+## Gaming
 
-- [Melissa Pons](https://melissapons.com/) — A field recordist whose main interests orbit around anthropology, environment, culture and social justice. For each project a part of the profit made goes back to the institutions or communities that support much needed causes and that had welcomed and guided her.
-- [Winifred Phillips](https://winifredphillips.wpcomstaging.com/) — A composer of music for entertainment media, her work most recently has focused on video games. She writes about music, video games, and the convergence of the two.
 - [Game Developer](https://www.gamedeveloper.com/blogs) — Game Developer was first founded in 1997 as Gamasutra, striving to be a leading resource and reference for game development and industry knowledge. Their daily posts focus on current events and developments in the game industry alongside regular, in-depth features and interviews
 - [Gamesindustry.biz](https://www.gamesindustry.biz/) — A community for news and information about the global video games industry, they deliver news content with opinion-forming industry interviews and analysis, while the site boasts one of the largest recruitment databases for video games-related roles and a comprehensive guide to the events that span the games business.
-- [REAPER blog](https://reaperblog.net/) — Jon Tidey runs an indispensable resource for the REAPER user community, providing news, reviews, tips & tricks, and detailed tutorials on music production using the REAPER software.
 
 ## Design, web, tech
 

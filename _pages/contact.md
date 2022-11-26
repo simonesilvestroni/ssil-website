@@ -7,6 +7,7 @@ description: 'The best way to get in touch is to reach out via email and we’ll
 excerpt: 'The best way to get in touch is to reach out via email and we’ll take it from there.'
 permalink: '/contact/'
 ---
+{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
 ✍️ [Send me an email →](mailto:me@simonesilvestroni.com)
 
 ## PGP key

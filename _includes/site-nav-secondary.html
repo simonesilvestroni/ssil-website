@@ -1,5 +1,5 @@
 <nav class="navigation" aria-label="Secondary navigation">
   {% for item in site.data.nav-secondary.menu -%}
-  <a class="fs-5 pe-3 {% if page.url contains item.link %} active{% endif %}" href="{{ item.link }}" title="{{ item.desc }}">{{ item.name }}</a>
+  <a class="fs-5 pe-3 {% if page.url contains item.link %} fw-bold{% endif %}" href="{{ item.link }}" title="{{ item.desc }}">{{ item.name }}</a>
   {% endfor -%}
 </nav>

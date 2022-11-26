@@ -109,6 +109,9 @@ While I was the team leader and sound designer for the title _Ruff Trigger: The 
 
 ## Endorsements
 
+{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
+Check out the [full list on **LinkedIn** ↗︎](https://www.linkedin.com/in/simonesilvestroni/)
+
 {%- assign endorsementweb = site.endorsements.web %}
 
 {%- for endorsement in endorsementweb %}
@@ -118,5 +121,5 @@ While I was the team leader and sound designer for the title _Ruff Trigger: The 
 
 {%- endfor %}
 
-{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-Check out the [full list on **LinkedIn** ↗︎](https://www.linkedin.com/in/simonesilvestroni/)
+{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
+**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

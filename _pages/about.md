@@ -50,3 +50,6 @@ Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team")
 ## Copyright
 
 The _text content_ of this website is [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). It means you are free to share — copy and redistribute the material in any medium or format, adapt — remix, transform, and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
+**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

@@ -2,42 +2,58 @@
 layout: page
 title: Blogroll
 date: '2022-11-22 18:37:49'
-last_modified_at: '2022-11-25 14:29:53'
+last_modified_at: '2022-11-25 23:20:57'
 description: 'My personal blogroll, listing blogs and websites I read within a curated platform that has no algorithm.'
-excerpt: 'A partial list of websites and blogs I enjoy reading through RSS. I also maintain an <a href="https://minutestomidnight.co.uk/blogroll/">audio and music related blogroll</a>.'
+excerpt: 'A partial list of websites and blogs I enjoy reading through RSS feeds.'
 toc: false
 permalink: '/blogroll/'
 ---
 ## General
 
-- [Ye Olde Blogroll](https://blogroll.org/) — A humanly curated list of fine personal & independent blogs that are updated regularly. _No algorithms ever_.
+{: .list-unstyled .ps-0 }
+- [**Ye Olde Blogroll**](https://blogroll.org/): a humanly curated list of fine personal & independent blogs that are updated regularly. _No algorithms ever_.
 
-## Gaming
+## Audio
 
-- [Game Developer](https://www.gamedeveloper.com/blogs) — Game Developer was first founded in 1997 as Gamasutra, striving to be a leading resource and reference for game development and industry knowledge. Their daily posts focus on current events and developments in the game industry alongside regular, in-depth features and interviews
-- [Gamesindustry.biz](https://www.gamesindustry.biz/) — A community for news and information about the global video games industry, they deliver news content with opinion-forming industry interviews and analysis, while the site boasts one of the largest recruitment databases for video games-related roles and a comprehensive guide to the events that span the games business.
+{: .list-unstyled .ps-0 }
+- [**Melissa Pons**](https://melissapons.com/): a field recordist whose main interests orbit around anthropology, environment, culture and social justice. For each project a part of the profit made goes back to the institutions or communities that support much needed causes and that had welcomed and guided her.
+- [**REAPER blog**](https://reaperblog.net/): Jon Tidey runs an indispensable resource for the REAPER user community, providing news, reviews, tips & tricks, and detailed tutorials on music production using the REAPER software.
 
-## Design, web, tech
+## Video games
 
-- [Silvia Maggi](https://silviamaggidesign.com) — A web designer and developer focused on usability, accessibility and information architecture. An expert in HTML, CSS and designing using web standards since 2004, she makes websites using Jekyll and WordPress. Curator of the inspiration series _Design, Digested_. Photography is her life-long passion. 🔥 **Her newsletter can be followed via RSS**. 
-- [Bradley Taunt](https://tdarb.org/) — Works as a user interface and experience designer and also dabble in open source projects. Writes about macOS, design, CSS, web development, digital privacy, Linux.
-- [Laura Kalbag](https://laurakalbag.com/) — Designer originally from the UK, now living in Ireland. Talking about rights-respecting design, accessibility and inclusivity, privacy, web design and development.
-- [Aral Balkan](https://ar.al/) — Activist, designer, and developer, he’s one-half of [Small Technology Foundation](https://small-tech.org/). They advocate for and build small technology to protect personhood and democracy in the digital network age.
-- [Luke Harris](https://www.lkhrs.com) — Web designer specializing in WordPress, Webflow, and static site generators. He lives and works remotely in Corpus Christi, Texas. Except for geolocation, I have a ton in common with Luke.
-- [Michael Harley](https://obsolete29.com/) — Software engineer living in Nashville and working as a SharePoint Developer specializing in Power Apps, Power Automate and PowerShell. He enjoys writing about privacy, development, security, hiking, riding bicycles and grilling.
-- [Ru Singh](https://rusingh.com/) — She's a generalist developer, focused on the web and the front-end since 2017. Ru writes about JavaScript, Django, and Python, document, administrate systems & projects, build beautiful user interfaces to go with easy user experiences and self-host.
-- [Jim Nielsen](https://blog.jim-nielsen.com/) — A designer who codes, working across the perceivedly disparate boundaries of design, engineering and product.
-- [Parimal Satyal](https://neustadt.fr) — Parimal is a designer and occasional writer living in Berlin. His interests are in communication, languages, cross-cultural exchange, aviation, computer history, information systems and the European Union. Parimal's personal website is a tribute to the creative web of the 90s.
-- [Redecentralize Digest](https://redecentralize.org/redigest/) ![new]({{ site.url }}/assets/images/new.gif) — a monthly publication about internet (re)decentralisation. It covers progress and thoughts relating technology and politics, without ties to a particular project nor to one definition of decentralisation — figuring out its meanings and relations is part of the mission. 🔥 **They have a newsletter that can be followed via RSS**.
+{: .list-unstyled .ps-0 }
+- [**Winifred Phillips**](https://winifredphillips.wpcomstaging.com/): a composer of music for entertainment media, her work most recently has focused on video games. She writes about music, video games, and the convergence of the two.
+- [**Game Developer**](https://www.gamedeveloper.com/blogs): first founded in 1997 as _Gamasutra_, striving to be a leading resource and reference for game development and industry knowledge. Their daily posts focus on current events and developments in the game industry alongside regular, in-depth features and interviews
+- [**Gamesindustry.biz**](https://www.gamesindustry.biz/): a community for news and information about the global video games industry, they deliver news content with opinion-forming industry interviews and analysis, while the site boasts one of the largest recruitment databases for video games-related roles and a comprehensive guide to the events that span the games business.
 
-## Facts, personal
+## Design, web, tech and personal
 
-- [Neurologica](https://theness.com/neurologicablog) — Steven Novella covers news and issues in neuroscience, but also general science, scientific skepticism, philosophy of science, critical thinking, and the intersection of science with the media and society.
-- [Om Malik](https://om.co/) — Om is a San Francisco-based writer, photographer, and investor. He writes about technology, photography, and general observations about life. Om likes to write like a human, steering clear of jargon and B-school speak.
-- [Abandoned Berlin](https://www.abandonedberlin.com) — An attempt to document the past, uncover hidden history and preserve the memory of neglected glories, as they are now.
-- [George Monbiot](https://www.monbiot.com/) — Journalist and writer, he tells people what they don’t want to hear. I find his writings on climate and politics slightly depressing though always illuminating.
-- [Richard Pierce](https://tettig.com/) — Richard Pierce is an author, broadcaster, and painter from the United Kingdom. His prose is captivating and always incredibly empathetic.
-- [Raymond Hines](https://alongtheray.com) — Ray is a lifelong entrepreneur who began a nomadic life on the road in 2016. He's been living in a tiny camper ever since. In his inspiring blog he shares the literal and figurative journey in all manner of ways: the highs, lows, introspectives, poetry, photographs, and more.
+{: .list-unstyled .ps-0 }
+- [**Silvia Maggi**](https://silviamaggidesign.com): web designer focused on usability, accessibility and information architecture. An expert in HTML, CSS and designing using web standards since 2004, she curates the inspiration series _Design, Digested_. Photography is her life-long passion. 🔥 **Her newsletter can also be followed via RSS**. 
+- [**Imogen**](https://write.as/imgn/): she's a scientist, songwriter and storyteller interested in data privacy, decentralized communication and free open source software. I followed Imogen on Mastodon because of her majestic taste in music and ended up finding a human connection with a kindred spirit.
+- [Bradley Taunt](https://tdarb.org/)<br>Works as a user interface and experience designer and also dabble in open source projects. Writes about macOS, design, CSS, web development, digital privacy, Linux.
+- [Small Technology Foundation](https://small-tech.org/news/)<br>Laura and Aral advocate for and build small technology to protect personhood and democracy in the digital network age.
+- [Luke Harris](https://www.lkhrs.com)<br>Web designer specializing in WordPress, Webflow, and static site generators. He lives and works remotely in Corpus Christi, Texas. Except for geolocation, I have a ton in common with Luke.
+- [Michael Harley](https://obsolete29.com/)<br>Software engineer living in Nashville and working as a SharePoint Developer specializing in Power Apps, Power Automate and PowerShell. He enjoys writing about privacy, development, security, hiking, riding bicycles and grilling.
+- [Parimal Satyal](https://neustadt.fr)<br>Parimal is a designer and occasional writer living in Berlin. His interests are in communication, languages, cross-cultural exchange, aviation, computer history, information systems and the European Union. Parimal's personal website is a tribute to the creative web of the 90s.
+- [Redecentralize Digest](https://redecentralize.org/redigest/)<br>a monthly publication about internet (re)decentralisation. It covers progress and thoughts relating technology and politics, without ties to a particular project nor to one definition of decentralisation — figuring out its meanings and relations is part of the mission.<br>🔥 **Their newsletter can also be followed via RSS**.
+- [Zachary Flower](http://flower.codes/)<br>Another brutalist minimal website that I love. I really enjoy Zach's writings, especially when he focuses on sustainable technology and embracing a slower life. He has a page collecting rules and values he lives by.
+- [Richard Pierce](https://tettig.com/)<br>Richard Pierce is an author, broadcaster, and painter from the United Kingdom. His prose is captivating and always incredibly empathetic.
+- [Raymond Hines](https://alongtheray.com)<br>Ray is a lifelong entrepreneur who began a nomadic life on the road in 2016. He's been living in a tiny camper ever since. In his inspiring blog he shares the literal and figurative journey in all manner of ways: the highs, lows, introspectives, poetry, photographs, and more.
+- [Ali Reza Hayati](https://alirezahayati.com/)<br>Ali is an entrepreneur, hacker, cypherpunk, and user freedom activist working to spread the use of strong cryptography and privacy-enhancing free (as in freedom) technologies to help people take full control over what they own. I share his point of view and love his gentle irony.
+- [Tommi](https://tommi.space/zibenglish)<br>(bilingual, in 🇮🇹 and 🇬🇧)<br>Tommi is a proud and enthusiastic fedinaut since 2020. He's a philosophy, international studies and economics student, but actually he does many things. I absolutely am in love with his website, which perfectly conveys the feeling of the weird and free exciting web of the 1990s.
+- [Jan Boddez](https://jan.boddez.net/)<br>Jan is a mechanical engineer, amateur guitarist, and web standards, WordPress and Laravel enthusiast from Belgium. By following him on Mastodon, I can appreciate his thorough, empathetic and gentle approach to all things, not just tech-related.
+- [Zinzy Waleson Geene](https://www.zinzy.website)<br>She works at the intersection of research, design, language, and strategy. At her current job she's taking an interdisciplinary approach to sustainable educational data. I love the content on her website and the fact she's not afraid to experiment with brutalist design, which I'm very fond of.
+- [Thomas Michael Semmler](https://helloyes.dev/)<br>Very recent addition on my Mastodon, I've been hit by his openness and the opinionated takes on the web design industry, which I wholeheartedly agree with.
+- [Adrianna Tan](https://popagandhi.com)<br>She's a recent discovery through Mastodon. A product manager, she's been blogging since 2003, which coincidentally is the same year when I started my first online journal. She advocates for an open web and her website is a magnificent example of minimalist design done well.
 
-{: .detached .mt-5 }
-Last update: <kbd>{{ page.last_modified_at }}</kbd>
+## Facts
+
+{: .list-unstyled .ps-0 }
+- [Neurologica](https://theness.com/neurologicablog)<br>Steven Novella covers news and issues in neuroscience, but also general science, scientific skepticism, philosophy of science, critical thinking, and the intersection of science with the media and society.
+- [Om Malik](https://om.co/)<br>Om is a San Francisco-based writer, photographer, and investor. He writes about technology, photography, and general observations about life. Om likes to write like a human, steering clear of jargon and B-school speak.
+- [Abandoned Berlin](https://www.abandonedberlin.com)<br>An attempt to document the past, uncover hidden history and preserve the memory of neglected glories, as they are now.
+- [George Monbiot](https://www.monbiot.com/)<br>Journalist and writer, he tells people what they don’t want to hear. I find his writings on climate and politics slightly depressing though always illuminating.
+
+{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
+**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

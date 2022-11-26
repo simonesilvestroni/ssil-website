@@ -143,6 +143,5 @@ As a [system-agnostic](/tools/), I can easily work with any OS, depending on the
 - [Carbon Copy Cloner](https://bombich.com/)
 - [Backblaze](https://www.backblaze.com/)
 
----
-
-Last update: <kbd>{{ page.last_modified_at }}</kbd>
+{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
+**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

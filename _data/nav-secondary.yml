@@ -11,6 +11,9 @@ menu:
   - name: Archive
     link: /archive/
     desc: 'Posts, projects and taxonomy'
+  - name: RSS
+    link: /rss/
+    desc: 'RSS feed'
   - name: Search
     link: /search/
     desc: 'Looking for something?'

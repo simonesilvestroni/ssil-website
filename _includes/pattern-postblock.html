@@ -5,7 +5,7 @@
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <span class="p-category text-uppercase initialism border-3 rounded bg-light py-1 px-2"><strong>{{ category | upcase | replace:"-"," " }}</strong></span>
+  <span class="p-category text-uppercase initialism border rounded bg-light py-1 px-2"><strong>{{ category | upcase | replace:"-"," " }}</strong></span>
   {% endfor %}
   <h2 class="fs-3 p-name my-4">{{ post.title }}</h2>
   {%- if post -%}

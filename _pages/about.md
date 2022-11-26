@@ -48,7 +48,7 @@ I [do not request third-party resources](https://aremythirdpartiesgreen.com/test
 Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.4` seconds and weigh `100kb` (uncompressed). 
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-More about my [**ethical choices**](/ethics/) →
+More about my [ethical choices](/ethics/) →
 
 ## Copyright
 

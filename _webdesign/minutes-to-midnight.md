@@ -396,22 +396,9 @@ As a static site generator, Jekyll lacks two features: a search functionality an
 
 ## Integrations: Webmentions, Indieweb
 
-After deciding to avoid third-party commenting systems, I turned to [webmentions](https://alistapart.com/article/webmentions-enabling-better-communication-on-the-internet/). An underrated and vastly ignored **W3C standard**, it's basically a _decentralized_ way to interact with other websites' posts, notes, likes and reposts[^6].
+After deciding to avoid third-party commenting systems, I turned to [webmentions]({{ site.url }}/blog/indieweb-and-webmentions-for-my-static-site/). It's a decentralized way to interact with other websites' posts, notes, likes and reposts[^6].
 
-I've been out of mainstream social networks for over a year and a half, so **putting my website at the center of my online presence** seemed perfect. In a nutshell this is what I've done:
-
-- Joined the [Indieweb](https://indieweb.org/).
-- Created a structured `h-card` using [Microformats 2](http://microformats.org/wiki/microformats2) for posts, notes and pages.
-- Tested my h-cards on [Indiewebify](https://indiewebify.me/).
-- Linked the website to [Webmention.io](https://webmention.io/) and created [Micropub](https://indieweb.org/Micropub) and [Microsub](https://indieweb.org/Microsub) endpoints.
-
-Even though Netlify has a free plug-in that would automatically send webmentions from my site at every new build, I prefer to rely on manual triggers using external free and open source services:
-
-- [Telegraph](https://telegraph.p3k.io/) send webmentions from my site to others.
-- [Brid.gy](https://brid.gy/) pulls webmentions to mine from certain external sites such as WordPress, Mastodon and Flickr, among many others — with the added capability to cross-post my content there. This principle is called [POSSE](https://indieweb.org/POSSE) — Publish (on your) Own Site, Syndicate Elsewhere.
-
-{: .text-center .mt-5 }
-![Webmentions on a recent blog post]({{ site.url }}/assets/images/webmention-reactions.png){: width='720' height='473' }
+I've been out of mainstream social networks since 2020, so **putting my website at the center of my online presence** seemed perfect.
 
 ---
 

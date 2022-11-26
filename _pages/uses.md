@@ -8,6 +8,9 @@ excerpt: 'Specifics about the hardware and software equipment I use. The page is
 permalink: '/uses/'
 toc: true
 ---
+{: .m2m-bg-alpha .border .border-3 .rounded .p-3 .my-5 .fs-5 }
+As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating system. Experimentation fascinates me, however I’m opposed to updates for the sake of it.
+
 ## Hardware
 
 ### Workstation
@@ -44,8 +47,6 @@ toc: true
 
 - macOS Catalina 10.15.7
 - Windows 10
-
-As a [system-agnostic](/tools/), I can easily work with any OS, depending on the task. I’m interested in experimentation but opposed to updates for the sake of it.
 
 ### Text editors
 

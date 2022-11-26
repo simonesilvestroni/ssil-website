@@ -47,6 +47,9 @@ I [do not request third-party resources](https://aremythirdpartiesgreen.com/test
 
 Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.4` seconds and weigh `100kb` (uncompressed). 
 
+{: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
+More about my [**ethical choices**](/ethics/) →
+
 ## Copyright
 
 The _text content_ of this website is [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). It means you are free to share — copy and redistribute the material in any medium or format, adapt — remix, transform, and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.

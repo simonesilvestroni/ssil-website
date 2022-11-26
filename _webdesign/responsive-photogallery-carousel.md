@@ -347,7 +347,3 @@ Check out my public gists for the three files:
 - [Image gallery pattern](https://github.com/simonesilvestroni/css-responsive-photogallery/blob/master/scss-image-gallery.scss)
 - [Modal window and carousel](https://github.com/simonesilvestroni/css-responsive-photogallery/blob/master/pattern-modal.html)
 - [SASS code](https://github.com/simonesilvestroni/css-responsive-photogallery/blob/master/scss.scss)
-
-## Example: multiple galleries
-
-To check the new module within a real-world page containing **multiple photo galleries**, click the button below and enjoy beautiful photos taken by Silvia in Bordeaux:

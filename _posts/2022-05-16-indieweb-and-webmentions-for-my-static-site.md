@@ -266,13 +266,13 @@ I'd like to stop relying on a third-party service and especially Javascript, bec
 ## Useful articles
 
 {: .list-unstyled .ps-0 }
-- 🔗 [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention){: .m2m-link } by Aaron Parecki
-- 🔗 [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/){: .m2m-link } by Max Glenister
-- 🔗 [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/){: .m2m-link } by Keith J. Grant
-- 🔗 [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/){: .m2m-link } by David Yates
-- 🔗 [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/){: .m2m-link } by Peter Molnar
-- 🔗 [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/){: .m2m-link } by Vincent Pickering
-- 🔗 [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/){: .m2m-link } by Wouter Groeneveld
+- [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention){: .m2m-link } by Aaron Parecki
+- [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/){: .m2m-link } by Max Glenister
+- [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/){: .m2m-link } by Keith J. Grant
+- [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/){: .m2m-link } by David Yates
+- [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/){: .m2m-link } by Peter Molnar
+- [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/){: .m2m-link } by Vincent Pickering
+- [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/){: .m2m-link } by Wouter Groeneveld
 
 ---
 

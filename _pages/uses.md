@@ -143,6 +143,3 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 
 - [Carbon Copy Cloner](https://bombich.com/)
 - [Backblaze](https://www.backblaze.com/)
-
-{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
-**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

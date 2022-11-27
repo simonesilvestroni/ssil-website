@@ -4,7 +4,7 @@ title: Blogroll
 date: '2022-11-22 18:37:49'
 last_modified_at: '2022-11-25 23:20:57'
 description: 'My personal blogroll, listing blogs and websites I read within a curated platform that has no algorithm.'
-excerpt: 'A partial list of websites and blogs I enjoy reading through RSS feeds.'
+excerpt: 'A partial list of websites and blogs I enjoy reading through <a href="/rss#what-is-rss">RSS feeds</a>.'
 toc: false
 permalink: '/blogroll/'
 ---
@@ -53,6 +53,3 @@ permalink: '/blogroll/'
 - [**Om Malik**](https://om.co/): Om is a San Francisco-based writer, photographer, and investor. He writes about technology, photography, and general observations about life. Om likes to write like a human, steering clear of jargon and B-school speak.
 - [**Abandoned Berlin**](https://www.abandonedberlin.com): an attempt to document the past, uncover hidden history and preserve the memory of neglected glories, as they are now.
 - [**George Monbiot**](https://www.monbiot.com/): journalist and writer, he tells people what they don’t want to hear. I find his writings on climate and politics slightly depressing though always illuminating.
-
-{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
-**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

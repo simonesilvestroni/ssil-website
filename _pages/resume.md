@@ -120,6 +120,3 @@ Check out the [full list on **LinkedIn** ↗︎](https://www.linkedin.com/in/sim
 > <cite>&mdash; {{ endorsement.name }}, [{{ endorsement.role }}]({{ endorsement.url }})</cite>
 
 {%- endfor %}
-
-{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
-**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

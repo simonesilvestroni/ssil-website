@@ -7,4 +7,5 @@ layout: default
 <div class="e-content">
 {{ content }}
 </div>
+{% unless page.update == false %}{% include pattern-last-updated.html %}{% endunless %}
 {% include hcard-page.html %}

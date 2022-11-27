@@ -78,6 +78,3 @@ I don't subscribe to any _echosystem_. Neither Apple's nor Google or Microsoft. 
 I’m opposed to updates _for the sake of it_. It means I only follow security updates, bug fixes and actual new useful features.
 
 At the same time, I stopped caring for all Apple updates ever since they had chosen an insane and arbitrarily idiotic yearly cycle of forced OS “upgrades”. **Planned obsolescence** brought by multi-trillion-dollar companies is not my cup of tea.
-
-{: .d-inline-block .btn-label-m2m-bg .rounded .mt-4 .px-2 .py-1 }
-**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

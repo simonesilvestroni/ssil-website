@@ -12,7 +12,7 @@ As a web designer, in line with my origins, I still <em>strive for minimalism</e
 I also have a parallel career in audio as a professional musician, producer and game sound designer that I carry out under the collective moniker _Minutes to Midnight_.
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-Check out my [audio work](https://minutestomidnight.co.uk) →
+Check out my [**audio work**](https://minutestomidnight.co.uk) →
 
 ## Other interests
 
@@ -21,7 +21,7 @@ An avid reader, I follow recent tech trends through online media, Mastodon, work
 Constantly looking for a way to complete a task in less and more efficient steps, I ended up writing an ebook about [project management](https://minutestomidnight.co.uk/projects/project-management/).
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-Read more in my [resume](/resume/) →
+Read more in my [**resume**](/resume/) →
 
 ## About the website
 
@@ -48,11 +48,8 @@ I [do not request third-party resources](https://aremythirdpartiesgreen.com/test
 Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.4` seconds and weigh `100kb` (uncompressed). 
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-More about my [ethical choices](/ethics/) →
+More about my [**ethical choices**](/ethics/) →
 
 ## Copyright
 
 The _text content_ of this website is [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). It means you are free to share — copy and redistribute the material in any medium or format, adapt — remix, transform, and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-
-{: .d-inline-block .btn-label-m2m-bg .rounded .mt-5 .px-2 .py-1 }
-**Updated**: {{ page.last_modified_at | date: "%-d %B %Y" }}

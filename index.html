@@ -2,6 +2,7 @@
 title: 'Simone Silvestroni - Web designer'
 date: '2022-11-22 21:08:36'
 last_modified_at: '2022-11-22 21:08:39'
+update: false
 ---
 <div class="h-entry">
   {% include hcard-page.html %}
@@ -15,7 +16,7 @@ last_modified_at: '2022-11-22 21:08:39'
     <h3 class="mb-4 h3">Blog posts</h3>
     <ul class="list-unstyled ps-0 mb-0">
     {%- for post in recentPosts limit: 3 -%}
-    <li class="mt-2 fs-5"><a class="m2m-link fs-5" href="{{ post.url }}" title="Read the post">{{ post.title }}</a>{%- if forloop.first -%}<span class="ps-2"><img src="{{ site.url }}/assets/images/new.gif" width="33" height="16" alt="New!"></span>{% endif %}</li>
+    <li class="mt-2 fs-5"><a href="{{ post.url }}" title="Read the post">{{ post.title }}</a></li>
     {% endfor -%}
     </ul>
   </section>
@@ -30,7 +31,7 @@ last_modified_at: '2022-11-22 21:08:39'
     <h3 class="mb-4 h3">Web projects</h3>
     <ul class="list-unstyled ps-0 mb-0">
     {% for project in projects limit: 3 %}
-    <li class="mt-2 fs-5"><a class="m2m-link" href="{{ project.url }}" title="Read the case study">{{ project.title }}</a></li>
+    <li class="mt-2 fs-5"><a href="{{ project.url }}" title="Read the case study">{{ project.title }}</a></li>
     {% endfor %}
     </ul>
   </section>

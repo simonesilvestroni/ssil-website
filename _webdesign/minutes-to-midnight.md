@@ -371,10 +371,10 @@ I took care of removing files that are not needed on the live server, by adding 
     </thead>
     <tbody>
       <tr>
-        <td class="text-center fs-3">✓ <a href="https://validator.w3.org/nu/?doc=https://minutestomidnight.co.uk/" target="_blank" rel="noopener">valid</a></td>
-        <td class="text-center fs-3"><a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fminutestomidnight.co.uk%2F" target="_blank" rel="noopener"><code>100</code></a></td>
-        <td class="text-center fs-3 fw-bold"><code>0.4 sec</code></td>
-        <td class="text-center fs-3"><code>{{ page.pageweight }}</code></td>
+        <td class="text-center">✓ <a href="https://validator.w3.org/nu/?doc=https://minutestomidnight.co.uk/" target="_blank" rel="noopener">valid</a></td>
+        <td class="text-center"><a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fminutestomidnight.co.uk%2F" target="_blank" rel="noopener"><code>100</code></a></td>
+        <td class="text-center"><code>0.4 sec</code></td>
+        <td class="text-center"><code>{{ page.pageweight }}</code></td>
       </tr>
     </tbody>
   </table>

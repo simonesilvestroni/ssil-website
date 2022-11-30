@@ -56,7 +56,7 @@ IndieAuth required `simonesilvestroni.com` to have a link to providers such as G
 
 It’s possible to do the same with a `<link>` tag in the `<head>`, which would be invisible in the page. After checking that my GitHub account had a link back to my homepage in the [profile settings](https://github.com/settings/profile), I entered the domain URL <kbd>https://simonesilvestroni.com</kbd> in webmention.io, which returned a confirmation screen. Note: the GPG method was added later.
 
-{% include pattern-figure.html image="/assets/images/indieauth.jpeg" alt="IndieAuth screenshot after adding the GitHub link" caption="IndieAuth screenshot after adding the GitHub link" width="600" height="430" %}
+{% include pattern-figure.html image="/assets/images/indieauth.png" alt="IndieAuth screenshot after adding the GitHub link" caption="IndieAuth screenshot after adding the GitHub link" width="768" height="547" %}
 
 After clicking the provider green button, I signed-in to GitHub to complete the authentication. This needed to be done once, or whenever I'm logged out from GitHub. Webmention.io dashboard was now up and running. Time to copy the code required to start accepting webmentions.
 
@@ -116,9 +116,7 @@ The h-card is wrapped in a `div` that’s hidden in the page but it’s machine-
 - <kbd>u-url</kbd> is the current page’s permalink.
 - A bunch of <kbd>rel="me"</kbd> links, including the GitHub URL previously used to authenticate to IndieAuth.
 
-Everything else is self-explanatory. The result of my h-card in a parser:
-
-{% include pattern-figure.html image="/assets/images/hcard.png" alt="My homepage h-card as seen by Indiewebify" caption="My homepage h-card as seen by Indiewebify" width="408" height="500" %}
+Everything else is self-explanatory.
 
 I had decided to have a modular h-card in pages and posts because I wanted to take care of all the authoral parts needed for machine readability, include it wherever needed and avoid cluttering the code. I also wanted to be able to show or hide these code bits on the page.
 

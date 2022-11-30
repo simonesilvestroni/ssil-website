@@ -23,7 +23,7 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 
 ### Headphones
 
-- Ollo Audio [S4X](/blog/ollo-audio-headphones/)
+- Ollo Audio [S4X](https://minutestomidnight.co.uk/blog/ollo-audio-headphones/)
 - Sony [MDR-7506](https://pro.sony/ue_US/products/headphones/mdr-7506) (for testing)
 - Beyerdynamic [DT 770 Pro](https://global.beyerdynamic.com/dt-770-pro.html) (for recording bass)
 - ~~AKG Studio K240~~

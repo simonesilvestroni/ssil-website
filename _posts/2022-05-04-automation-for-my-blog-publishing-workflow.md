@@ -68,9 +68,6 @@ The following short video demonstrates the process in real time.
 
 {% include pattern-video.html id="oAO2caYnF08" %}
 
-{: .m2m-bg-alpha .border .border-3 .rounded .p-3 .mb-5 .fs-5 }
-**Note**: when the Terminal is shown, there’s a Jekyll compile issue: that‘s my fault as I’ve done this video twice and forgot to delete the previous test post with the same title. 🙈
-
 Here is the whole routine of the wizard:
 
 {% include pattern-figure.html image="/assets/images/jekyll-automations-new-post.png" alt="Shortcuts app for creating a new Jekyll post" caption="Shortcuts app for creating a new Jekyll post" width="505" height="1517" %}
@@ -134,9 +131,6 @@ I can either right-click and use the quick actions or drag the image to the Dock
 #### Video demo
 
 {% include pattern-video.html id="K0AKv7aIxP8" %}
-
-{: .m2m-bg-alpha .border-3 .rounded .p-3 .fs-5 }
-**Note**: I clearly didn’t optimize the size. In fact, the images used in the video are from my collection of desktop wallpapers. 🙂
 
 #### Breakdown
 

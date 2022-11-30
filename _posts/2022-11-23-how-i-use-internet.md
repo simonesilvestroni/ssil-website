@@ -51,7 +51,7 @@ Ever since Reeder 5 has introduced the possibility to add a [Pocket](https://get
 
 ## Social interactions
 
-I joined Mastodon in 2017, only to leave after a few months because I still was on Twitter and its mechanism of keeping people hooked on the platform. In 2020, I’d deleted all my social media accounts and [re-joined the Fediverse](https://indieweb.social/web/@m2m).
+I joined Mastodon in 2017, only to leave after a few months because I still was on Twitter and its mechanism of keeping people hooked on the platform. In 2020, I’d deleted all my social media accounts and re-joined the Fediverse.
 
 Another angle on the Fediverse that I joined is [Pixelfed](https://pixelfed.social/@m2m). Promoted as a humane alternative to Instagram, is (intuitively) a photo-sharing platform. It’s quiet and relaxing, probably because it’s got a small number of subscribers.
 
@@ -61,7 +61,7 @@ I started in the 1990s with BBSes and Usenet newsgroups. Still missing both.
 
 ## Personal and work websites
 
-[Work on my website]({{ site.url }}/about/#about-the-website) is performed manually, after years on WordPress. It’s a minimalistic approach which perfectly suits the need to cut down on bloat and (digital) noise. I use Jekyll with its Liquid template language, writing posts in Markdown and deploying to Netlify. I love the process and it doesn’t cost a dime. Along with Mastodon, the blog is my way of reaching out.
+[Work on my websites]({{ site.url }}/about/#about-the-website) is performed manually, after years on WordPress. It’s a minimalistic approach which perfectly suits the need to cut down on bloat and (digital) noise. I use Jekyll with its Liquid template language, writing posts in Markdown and deploying to Netlify. I love the process and it doesn’t cost a dime. Along with Mastodon, the blog is my way of reaching out.
 
 I started bloggin in March 2002.
 

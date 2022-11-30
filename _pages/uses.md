@@ -143,3 +143,6 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 
 - [Carbon Copy Cloner](https://bombich.com/)
 - [Backblaze](https://www.backblaze.com/)
+
+{: .d-inline-block .border .border-3 .rounded .mt-5 .px-3 .py-3 }
+Check out [**my audio equipment**](https://minutestomidnight.co.uk/uses/) →

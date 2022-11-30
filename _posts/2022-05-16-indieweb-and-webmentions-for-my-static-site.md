@@ -247,7 +247,7 @@ Logging into Telegraph works the same as the other Indieweb services, it only ne
 
 To receive webmentions I have simply implemented the popular [`webmentions.js`](https://github.com/PlaidWeb/webmention.js) by [Fluffy](https://beesbuzz.biz/). It pulls data from webmention.io, adding the results in a section of my website. The minified Javascript file is only loaded in posts where webmentions can be received.
 
-I have an inclusion called [`pattern-responses.html`](https://github.com/simonesilvestroni/m2m-website/blob/master/_includes/pattern-responses.html) where my comments code resides: the block of code `<div id="webmentions"></div>` at the bottom gets populated by the script in case webmentions are received.
+I have an inclusion called [`pattern-responses.html`](https://github.com/simonesilvestroni/ssil-website/blob/master/_includes/pattern-responses.html) where my comments code resides: the block of code `<div id="webmentions"></div>` at the bottom gets populated by the script in case webmentions are received.
 
 To collect reactions from Mastodon, I connected my Fediverse account to [Brid.gy](https://brid.gy/). It backfeeds likes and comments to `webmention.io`. WordPress and Flickr accounts were also added to Brid.gy. I can post a photo in my website and syndicate to Flickr while also backfeeding likes and comments from Flickr back to my site.
 
@@ -266,13 +266,13 @@ I'd like to stop relying on a third-party service and especially Javascript, bec
 ## Useful articles
 
 {: .list-unstyled .ps-0 }
-- [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention){: .m2m-link } by Aaron Parecki
-- [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/){: .m2m-link } by Max Glenister
-- [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/){: .m2m-link } by Keith J. Grant
-- [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/){: .m2m-link } by David Yates
-- [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/){: .m2m-link } by Peter Molnar
-- [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/){: .m2m-link } by Vincent Pickering
-- [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/){: .m2m-link } by Wouter Groeneveld
+- [Sending your First Webmention from Scratch ↗︎](https://aaronparecki.com/2018/06/30/11/your-first-webmention) by Aaron Parecki
+- [Adding support for Webmentions ↗︎](https://blog.omgmog.net/post/adding-support-for-webmentions/) by Max Glenister
+- [Adding Webmention Support to a Static Site ↗︎](https://keithjgrant.com/posts/2019/02/adding-webmention-support-to-a-static-site/) by Keith J. Grant
+- [Untangling the IndieWeb ↗︎](https://davidyat.es/2019/06/24/indieweb/) by David Yates
+- [Old Web, New Web, Indie Web ↗︎](https://petermolnar.net/article/old-web-new-web-indie-web/) by Peter Molnar
+- [Implementing the Indieweb on a static website ↗︎](https://vincentp.me/articles/2018/11/14/20-00/) by Vincent Pickering
+- [Host your own webmention receiver ↗︎](https://brainbaking.com/post/2021/05/beyond-webmention-io/) by Wouter Groeneveld
 
 ---
 

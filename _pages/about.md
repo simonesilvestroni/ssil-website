@@ -34,7 +34,7 @@ The website has been developed from scratch using:
 - Vanilla javascript for [search module](https://github.com/daviddarnes/jekyll-search-js) and [webmentions](http://beesbuzz.biz)
 - Table of contents Liquid code by [Vladimir "allejo" Jimenez](https://github.com/allejo/jekyll-toc)
 - Bash for building purposes
-- [Github](https://github.com/simonesilvestroni/m2m-website)
+- [Github](https://github.com/simonesilvestroni/ssil-website)
 - [Netlify](https://netlify.com)
 
 ### Accessibility and sustainability

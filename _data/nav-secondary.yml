@@ -14,6 +14,9 @@ menu:
   - name: RSS
     link: /rss/
     desc: 'RSS feed'
+  - name: Notes
+    link: /notes/
+    desc: 'RSS feed'
   - name: Search
     link: /search/
     desc: 'Looking for something?'

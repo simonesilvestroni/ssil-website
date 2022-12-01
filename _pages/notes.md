@@ -4,7 +4,7 @@ title: Notes
 date: '2022-05-12'
 last_modified_at: '2022-05-12 12:17:28'
 permalink: '/notes/'
-excerpt: 'We’re using notes as Indieweb comments and replies sent through webmentions. Inspired by <a href="https://brainbaking.com/notes/">Wouter Groeneveld</a>.'
+excerpt: 'I’m using notes as Indieweb comments and replies sent through webmentions. Inspired by <a href="https://brainbaking.com/notes/">Wouter Groeneveld</a>.'
 sitemap: false
 robots: 'noindex,follow'
 ---

@@ -16,7 +16,7 @@ menu:
     desc: 'RSS feed'
   - name: Notes
     link: /notes/
-    desc: 'RSS feed'
+    desc: 'Replies through webmentions'
   - name: Search
     link: /search/
     desc: 'Looking for something?'

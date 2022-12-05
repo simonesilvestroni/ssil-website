@@ -45,7 +45,7 @@ Only `0.04g` of CO2 is produced every time someone visits the homepage, which is
 
 I [do not request third-party resources](https://aremythirdpartiesgreen.com/test/76e7ac7370d84f1fabd254608e118ff4), except for the blog posts, which are calling `webmention.io` to render web mentions.
 
-Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.4` seconds and weigh `100kb` (uncompressed). 
+Member of the [512kb club](https://512kb.club "Member of the 512kb Orange Team") and the [1Mb club](https://1mb.club/). The markup is valid, the homepage loads in `0.2` seconds and weigh `77.2KB` (uncompressed). 
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
 More about my [**ethical choices**](/ethics/) →

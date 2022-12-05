@@ -4,7 +4,7 @@ title: Blogroll
 date: '2022-11-22 18:37:49'
 last_modified_at: '2022-11-25 23:20:57'
 description: 'My personal blogroll, listing blogs and websites I read within a curated platform that has no algorithm.'
-excerpt: 'A partial list of websites and blogs I enjoy reading through <a href="/rss#what-is-rss">RSS feeds</a>.'
+excerpt: 'A partial list of websites and blogs I enjoy reading through <a href="/rss/">RSS feeds</a>.'
 toc: false
 permalink: '/blogroll/'
 ---

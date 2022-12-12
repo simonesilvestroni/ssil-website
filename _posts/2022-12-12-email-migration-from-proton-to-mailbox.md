@@ -23,7 +23,7 @@ The following has been done on macOS (Catalina).
 
 After getting the gist of how the various services and settings work in my new Mailbox account, I've added €3 to become a paying customer. I like this formula, as it leaves me free to fully experiment for a while without committing to an annual payment yet.
 
-I got 50 aliases, including addresses for my domains. Setting them up was as easy as adding a bunch of DNS values (TXT and MX) after authenticating the domains themselves with Mailbox.
+I got 50 aliases, including addresses for my domains. Setting them up was as easy as adding a bunch of DNS values (TXT and MX) after authenticating the domains themselves with Mailbox. I can also improve the reputation by [adding SPF, DKIM and DMARC](https://kb.mailbox.org/en/private/custom-domains/spf-dkim-and-dmarc-how-to-improve-the-spam-reputation-of-your-domain).
 
 They gave me automatic configuration profiles for email, calendar and contacts. While preferring a manual setup for IMAP and SMTP on Mail.app, I've chosen the easy and fast procedure for calDAV and cardDAV.
 

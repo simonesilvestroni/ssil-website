@@ -15,7 +15,7 @@ It also costs more than [Mailbox.org](https://mailbox.org), the competitor that 
 
 With Proton I’m not allowed to use any system app such as Calendar and Contacts, which makes a proper sync quite cumbersome. External email clients are barely supported — on desktop only — and require a special application called Bridge running in the background at all times. It supports a very limited number of mail applications, such as Apple Mail, Thunderbird and Outlook.
 
-Mailbox.org is hosted in the EU (Germany) on green servers.
+Mailbox.org is hosted in the EU (Germany) on [green servers](https://mailbox.org/en/company#our-responsibility).
 
 ## The process
 
@@ -41,7 +41,7 @@ In the end, changing email address for a multitude of online accounts took longe
 
 ## Mobile
 
-This was the surprise I enjoyed the most. Being on Android, I feared the idea of having to look for good apps that can support cardDAV and calDAV natively. While reading Mailbox FAQs, I stumbled on an article where they suggested an <abbr title="Free and Open Source Software">FOSS</abbr> app available on F-Droid called [DAVx<sup>5</sup>](https://f-droid.org/en/packages/at.bitfire.davdroid/).
+This was the surprise I enjoyed the most. Being on Android, I feared the idea of having to look for good apps that can support cardDAV and calDAV natively. While reading Mailbox FAQs, I stumbled on an article where they suggested a <abbr title="Free and Open Source Software">FOSS</abbr> app available on F-Droid called [DAVx<sup>5</sup>](https://f-droid.org/en/packages/at.bitfire.davdroid/).
 
 It was just a matter of adding the single Mailbox account in the app and activate calDAV and cardDAV. Afterwards, the integrated Contacts and Calendar apps by Google would simply sync to it. I feel obliged to repeat that I *don't have a Google account* set up with my Android phone, and yet they work seamlessly with Mailbox through DAVx<sup>5</sup> sync.
 

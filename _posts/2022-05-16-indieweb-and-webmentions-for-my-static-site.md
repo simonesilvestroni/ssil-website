@@ -176,7 +176,7 @@ This is how I applied microformats classes to the post layout:
     <a class="u-url u-uid" href="https://simonesilvestroni.com/blog/build-a-human-readable-rss-with-jekyll/" title="Permalink">Permalink: <em>A human-readable RSS feed with Jekyll</em></a>
     <time class="dt-published" datetime="2022-05-02T10:36:05+02:00" itemprop="dateCreated">2 May 2022</time>
     <data class="p-org" value="Minutes to Midnight"></data>
-    <data class="u-email" rel="me" value="mailto:me@simonesilvestroni.com"></data>
+    <data class="u-email" rel="me" value="mailto:hello@simonesilvestroni.com"></data>
     <data rel="me" value="https://minutestomidnight.bandcamp.com/"></data>
     <data rel="me" value="https://github.com/simonesilvestroni/"></data>
     <data rel="me" value="https://indieweb.social/@m2m"></data>

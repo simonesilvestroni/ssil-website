@@ -8,7 +8,7 @@ excerpt: 'The best way to get in touch is to reach out via email and we’ll tak
 permalink: '/contact/'
 ---
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-✍️ [Send me an email →](mailto:me@simonesilvestroni.com)
+✍️ [Send me an email →](mailto:hello@simonesilvestroni.com)
 
 ## PGP key
 

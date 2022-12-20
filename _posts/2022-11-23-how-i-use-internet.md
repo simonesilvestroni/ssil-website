@@ -17,9 +17,9 @@ excerpt: 'Inspired by Michael Harley’s <a href="https://obsolete29.com/posts/2
 
 I still prefer e-mail over any other form of communication.
 
-A few years ago I’ve switched to [Protonmail](https://proton.me), after possibly using all the available systems out there — both free and paid. Even though I’m not entirely satisfied, it fits my current privacy needs.
+~~A few years ago I’ve switched to Protonmail, after possibly using all the available systems out there — both free and paid. Even though I’m not entirely satisfied, it fits my current privacy needs.~~ 
 
-Being a premium customer gives me full access to their secure Calendar and Drive options, which makes easy to switch off alternatives such as Apple/Google calendar and cloud drive.
+After a few years with Proton, [I switched to Mailbox.org]({{ site.url }}/blog/email-migration-from-proton-to-mailbox/). I now sync my calendars and address book with Android through the open source [DAVx<sup>5</sup>](https://f-droid.org/en/packages/at.bitfire.davdroid/).
 
 My first e-mail client was [Eudora](https://en.wikipedia.org/wiki/Eudora_(email_client)).
 
@@ -29,7 +29,7 @@ My first e-mail client was [Eudora](https://en.wikipedia.org/wiki/Eudora_(email_
 
 I can read newsletters there, collected within a single tag, follow my YouTube subscriptions while avoiding the website altogether. This strips their algorithm out, along with the noise of comments and whatnot. If the urge to interact comes up, it’s easy to click the link and go to the website.
 
-There are desktop clients and mobile apps — in fact, I own [Reeder 5](https://reederapp.com/), which supports Feedbin accounts. However, I seem to enjoy the web app considerably more.
+While I enjoy the web app on Android, I've been using [Reeder 5](https://reederapp.com/) on macOS, which perfectly supports Feedbin accounts.
 
 Since I’m [not following mainstream news](/blog/degrowth/), the categories in Feedbin reflects my main interests:
 
@@ -47,7 +47,7 @@ Besides following subscriptions through RSS, I tend to save important videos off
 
 ## Read later
 
-Ever since Reeder 5 has introduced the possibility to add a [Pocket](https://getpocket.com/) account, it quickly became my preferred way to read long-form articles on desktop. Not being on the premium plan makes it impossible to keep articles if they disappear from the web, therefore I tend to consume my saved links reasonably quickly.
+After discovering the [pages functionality in Feedbin](https://feedbin.com/blog/2019/08/20/save-webpages-to-read-later/), I ditched my Pocket account. Reeder 5 handles them well, making it easy to save articles from the Mac.
 
 ## Social interactions
 

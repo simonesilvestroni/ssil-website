@@ -9,7 +9,7 @@ permalink: '/uses/'
 toc: true
 ---
 {: .m2m-bg-alpha .border .border-3 .rounded .p-3 .my-5 .fs-5 }
-As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating system. Experimentation fascinates me, however I’m opposed to updates for the sake of it.
+As a [system-agnostic](/ethics/), I'm not tied to a particular operating system. Experimentation fascinates me, however I’m opposed to updates for the sake of it.<br><br>I also have a post about [how I use the internet]({{ site.url }}/blog/how-i-use-internet/).
 
 ## Hardware
 
@@ -53,6 +53,7 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 - [Sublime Text 4](http://www.sublimetext.com/)&nbsp;(**[read why ↗](https://tonsky.me/blog/sublime/)**)
 - [Typora](https://typora.io/)
 - [iA Writer](https://ia.net/writer)
+- [Obsidian](https://obsidian.md/mobile) on Android
 - ~~VS Code~~
 - ~~Atom~~
 - ~~Textmate~~
@@ -78,10 +79,13 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 
 ### E-mail
 
-- [Protonmail](https://proton.me/mail)
-- [Thunderbird](https://www.thunderbird.net)
+- [Mailbox.org](https://mailbox.org/en/)
+- [Mail.app](https://en.wikipedia.org/wiki/Apple_Mail) on macOS
+- [K-9](https://k9mail.app/) on Android
+- ~~Protonmail~~
+- ~~Thunderbird~~
 
-### Image manipulation
+### Image manipulation and management
 
 - [Sketch](https://www.sketch.com/) v59
 - [Pixelmator](https://www.pixelmator.com/)
@@ -103,17 +107,17 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 - ~~Google Workspace~~
 - ~~Microsoft Office~~
 
-### RSS and news
+### RSS and read later
 
 - [Feedbin](https://feedbin.com)
-- [Pocket](https://www.mozilla.org/en-US/firefox/pocket/)
-- ~~Reeder 5~~
+- [Reeder 5](https://reeder.app/)
+- ~~Pocket~~
 - ~~NetNewsWire~~
 
 ### Task management
 
 - [Todo.txt](https://github.com/todotxt)
-- Trello
+- [Trello](https://trello.com)
 - ~~Todoist~~
 - ~~JIRA~~
 - ~~Wunderlist~~
@@ -137,7 +141,7 @@ As a [**system-agnostic**](/ethics/), I'm not tied to a particular operating sys
 ### Cloud sync
 
 - [Syncthing](https://syncthing.net/)
-- [Dropbox](https://www.dropbox.com/) (in the browser, upload through Transmit)
+- [Dropbox](https://www.dropbox.com/) (only in the browser, uploads through Transmit)
 
 ### Backup
 

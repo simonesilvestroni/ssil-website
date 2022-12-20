@@ -15,7 +15,7 @@ update: false
     {%- assign recentPosts = site.posts | sort: 'date' | reverse -%}
     <h2 class="mb-4 h3">Blog posts</h2>
     <ul class="list-unstyled ps-0 mb-0">
-    {%- for post in recentPosts limit: 3 -%}
+    {%- for post in recentPosts limit: 4 -%}
     <li class="mt-2 fs-5"><a href="{{ post.url }}" title="Read the post">{{ post.title }}</a></li>
     {% endfor -%}
     </ul>
@@ -30,7 +30,7 @@ update: false
     {%- assign projects = webdesign | sort: 'date' | reverse -%}
     <h2 class="mb-4 h3">Web projects</h2>
     <ul class="list-unstyled ps-0 mb-0">
-    {% for project in projects limit: 3 %}
+    {% for project in projects limit: 4 %}
     <li class="mt-2 fs-5"><a href="{{ project.url }}" title="Read the case study">{{ project.title }}</a></li>
     {% endfor %}
     </ul>

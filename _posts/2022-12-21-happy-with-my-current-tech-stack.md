@@ -11,7 +11,7 @@ tags:
   - 'redmi note 7'
   - 'macbook pro'
   - 'windows'
-  - 'linux'
+  - 'syncthing'
 description: "This is a description"
 excerpt: "I’ve been having interesting discussions on Mastodon recently about whether a tech stack is satisfactory or if better solutions lie ahead."
 ---

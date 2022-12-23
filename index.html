@@ -13,7 +13,7 @@ update: false
   {% endcomment %}
   <section class="h-feed">
     {%- assign recentPosts = site.posts | sort: 'date' | reverse -%}
-    <h2 class="mb-4 h3">Blog posts</h2>
+    <h2 class="mb-4 h3">Blog</h2>
     <ul class="list-unstyled ps-0 mb-0">
     {%- for post in recentPosts limit: 4 -%}
     <li class="mt-2 fs-5"><a href="{{ post.url }}" title="Read the post">{{ post.title }}</a></li>
@@ -28,7 +28,7 @@ update: false
   <section class="h-feed">
     {%- assign webdesign = site.webdesign -%}
     {%- assign projects = webdesign | sort: 'date' | reverse -%}
-    <h2 class="mb-4 h3">Web projects</h2>
+    <h2 class="mb-4 h3">Projects</h2>
     <ul class="list-unstyled ps-0 mb-0">
     {% for project in projects limit: 4 %}
     <li class="mt-2 fs-5"><a href="{{ project.url }}" title="Read the case study">{{ project.title }}</a></li>

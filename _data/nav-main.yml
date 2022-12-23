@@ -2,12 +2,12 @@ menu:
   - name: About
     link: /about/
     desc: 'Notes about me and this website'
-  - name: Projects
-    link: /projects/
-    desc: 'Recent work'
   - name: Blog
     link: /blog/
     desc: 'Articles, interviews and press releases'
+  - name: Projects
+    link: /projects/
+    desc: 'Recent work'
   - name: Contact
     link: /contact/
     desc: 'Hire me or get in touch'

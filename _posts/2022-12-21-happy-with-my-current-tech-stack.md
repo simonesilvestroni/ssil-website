@@ -12,7 +12,7 @@ tags:
   - 'macbook pro'
   - 'windows'
   - 'syncthing'
-description: "This is a description"
+description: "How I'm finding myself eerily happy with my current tech stack, while being outside digital ecosystems"
 excerpt: "I’ve been having interesting discussions on Mastodon recently about whether a tech stack is satisfactory or if better solutions lie ahead."
 ---
 What "tech stack" means: computer, software, mobile phone, operating systems, data sync and how easy is to manage the relationship between these parts.

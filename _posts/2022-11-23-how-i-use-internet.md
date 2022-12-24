@@ -7,9 +7,19 @@ categories:
 tags:
   - internet
   - web
+  - firefox
   - rss
+  - feedbin
+  - reeder
   - social media
+  - mastodon
+  - pixelfed
+  - fediverse
   - email
+  - mailbox
+  - duckduckgo
+  - startpage
+  - marginalia
 description: "A brief description of how I use the internet in 2022, two years after leaving the major social networks."
 excerpt: 'Inspired by Michael Harley’s <a href="https://obsolete29.com/posts/2022/11/07/how-i-internet/">How I Internet</a>, which was inspired by Cassey Lottman’s, <a href="https://www.cassey.dev/posts/2022-11-05-my-internet/">My Internet</a>, I’m sharing how I spend my time online.'
 ---
@@ -74,6 +84,10 @@ If, for whatever reason, the need to read mainstream news headlines arises, I us
 ## Search
 
 It might be 4 or 5 years since I stopped using Google as my search engine. Today I use a mix of [DuckDuckGo](https://duckduckgo.com/) and [Startpage](https://www.startpage.com/). Sometimes, [Marginalia](https://search.marginalia.nu/) is a good place to go to find weirder and authentic things.
+
+## Browser
+
+My daily rider has been Firefox for more than a year, on both desktop and mobile. I use a Mozilla account to keep them in sync.
 
 ## Chat
 

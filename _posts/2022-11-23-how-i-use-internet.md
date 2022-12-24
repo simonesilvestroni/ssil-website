@@ -71,6 +71,10 @@ The only news outlet that I keep checking on regularly is [Legible News](https:/
 
 If, for whatever reason, the need to read mainstream news headlines arises, I use the [text version of NPR](https://text.npr.org/). Nine times out of ten, I don’t click the links. The number of times I find myself checking the site decreases exponentially over time. Every blue moon I check [The Guardian](https://www.theguardian.com/international) and [The Atlantic](https://www.theatlantic.com/world/), in search for long-form analysis that can be added to my read later list.
 
+## Search
+
+It might be 4 or 5 years since I stopped using Google as my search engine. Today I use a mix of [DuckDuckGo](https://duckduckgo.com/) and [Startpage](https://www.startpage.com/). Sometimes, [Marginalia](https://search.marginalia.nu/) is a good place to go to find weirder and authentic things.
+
 ## Chat
 
 While I still prefer e-mail for communicating with people, I have an account on Telegram and — unfortunately — WhatsApp. The latter feels forced onto me by the fact I’m about to move abroad again, and apparently my home country is hooked on Meta.

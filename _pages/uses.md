@@ -17,16 +17,9 @@ As a [system-agnostic](/ethics/), I'm not tied to a particular operating system.
 
 - Maxed out 15-in [MacBook Pro i7 Mid 2015](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-iris-only-mid-2015-retina-display-specs.html) upgraded with an internal 1TB SSD. 
 - 27-in Dell HD monitor
+- Wireless Apple Magic Keyboard 2
 - Wireless Logitech M350 Pebble mouse
 - [Razer Deathadder](https://www.razer.com/gaming-mice/razer-deathadder-v2/RZ01-03210100-R3U1) gaming mouse
-- ~~Wireless Apple Magic Keyboard 2~~
-
-### Headphones
-
-- Ollo Audio [S4X](https://minutestomidnight.co.uk/blog/ollo-audio-headphones/)
-- Sony [MDR-7506](https://pro.sony/ue_US/products/headphones/mdr-7506) (for testing)
-- Beyerdynamic [DT 770 Pro](https://global.beyerdynamic.com/dt-770-pro.html) (for recording bass)
-- ~~AKG Studio K240~~
 
 ### Mobile device
 

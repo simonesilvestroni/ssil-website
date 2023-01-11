@@ -61,6 +61,8 @@ After stopping being attached to a particular brand, becoming _system agnostic_ 
 
 Pretty much all the software I use, with few and rare exceptions, can be installed and run from any operating system.
 
+I don't use illegal software.
+
 ## Subscriptions and walled gardens
 
 Everything that is locked within a _subscription model_ doesn't get neither attention nor money from me. Similarly, I don't subscribe to any _ecosystem_. Albeit slightly less convenient, it allows freedom to move around.

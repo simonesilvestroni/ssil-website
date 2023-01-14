@@ -9,7 +9,7 @@ permalink: '/about/'
 ---
 As a web designer, in line with my origins, I still <em>strive for minimalism</em>. With a vast experience in front-end development and some back-end, UI design and custom WordPress systems, my main focus is on accessibility and sustainability through a relentless stack optimization.
 
-I also have a parallel career in audio as a professional musician, producer and game sound designer that I carry out under the collective moniker _Minutes to Midnight_.
+I also have a parallel career in audio as a professional musician, producer and game sound designer that I carry out under the moniker _Minutes to Midnight_.
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
 Check out my [**audio work**](https://minutestomidnight.co.uk) →

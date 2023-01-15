@@ -2,7 +2,7 @@
 layout: page
 title: 'Uses'
 date: '2021-11-08 10:54:03'
-last_modified_at: '2022-11-23 16:40:12'
+last_modified_at: '2023-01-15 14:03:18'
 description: "Specifics about the hardware and software equipment I use. The page is part of the uses.tech project."
 excerpt: 'Specifics about the hardware and software equipment I use. The page is part of the <a href="https://uses.tech/">uses.tech</a> project.'
 permalink: '/uses/'
@@ -61,7 +61,7 @@ As a [system-agnostic](/ethics/), I'm not tied to a particular operating system.
 ### Git
 
 - Terminal
-- [Sublime Merge](https://www.sublimemerge.com/) (currently in trial)
+- [Sublime Merge](https://www.sublimemerge.com/)
 - [Kaleidoscope](https://kaleidoscope.app/)
 
 ### Browser

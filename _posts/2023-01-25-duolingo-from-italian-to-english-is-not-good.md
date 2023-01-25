@@ -20,7 +20,7 @@ I won't be dwelling too much into everything that was bad in my opinion, however
 
 First and foremost, the course is undisputedly at an elementary level, therefore, even after completing all 47 units, an Italian could be a quasi-decent tourist at best — especially in the United States — or simply be able to better manage non-mothertongue clients speaking English at work, in Italy.
 
-Of course, it didn't serve my goal of reviewing the language. I completed it in a very few days without perceiving any complication as long as I proceeded along the units. Maybe that's my fault, however I wasn't introduced to the low level of difficulty.
+It didn't serve my goal of reviewing the language. I completed it in a very few days without perceiving any complication as long as I proceeded along the units. Maybe it's just my perception, because I wasn't introduced to level of difficulty.
 
 ## American English
 

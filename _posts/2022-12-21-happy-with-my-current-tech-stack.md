@@ -47,6 +47,6 @@ Syncthing lets me seamlessly move data between my different devices without goin
 
 ## Ethics
 
-Of course I'd love to drop Apple and Microsoft and go full Unix and FOSS. No, I can't do it now, so I'm content with how I mix my open and closed-source software, supporting the former and paying the latter when I don't have a suitable alternative.
+I'd love to drop Apple and Microsoft and go full Unix and FOSS. No, I can't do it now, so I'm content with how I mix my open and closed-source software, supporting the former and paying the latter when I don't have a suitable alternative.
 
 Time is a precious thing to me, therefore getting from A to B with the least amount of bumps on the road is paramount. Having found a way to do it largely outside of Big Tech's ecosystems — while bypassing planned obsolescence — makes me happy.

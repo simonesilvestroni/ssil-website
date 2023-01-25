@@ -33,7 +33,7 @@ Downloaded uBlock Origin and installed by dragging the `.crx` file to browser wi
 
 Set the local website as the only bookmark (it's already added to my white list in uBlock).
 
-Ungoogled Chromium is already set to clear cookies and cache when all the windows are closed, and of course no password suggestions, autofill, phone-home etcetera.
+Ungoogled Chromium is already set to clear cookies and cache when all the windows are closed, and also no password suggestions, autofill, phone-home etcetera.
 
 A complete list of FAQ can be [found on their wiki](https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq).
 

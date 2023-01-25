@@ -28,7 +28,15 @@ I mentioned the United States on purpose, because it uses American pronunciation
 
 ## Who speaks like that in Italy?
 
-The amount of phrases that made zero sense in my native language was astounding. I'm not talking about Duolingo’s use of hyperboles: I do understand why they use phrases such as _the owl doesn't cook well_. I'm talking about sentences that were also wrong or extremely ambiguous from a grammar point of view. Most of my mistakes were caused by the confusion arising from this single issue.
+The amount of phrases that made zero sense in my native language was astounding. I'm not talking about Duolingo’s use of hyperboles: I do understand why they use phrases such as _the owl doesn't cook well_. I'm talking about sentences that were also wrong or extremely ambiguous from a grammar point of view. Most of my mistakes were caused by the confusion arising from this single issue, or from perfectly good answers that they deemed incorrect.
+
+An example:
+
+{% include pattern-figure.html image="/assets/images/duolingo-mistake-1.jpg" alt="Duolingo asking to translate the Italian 'Devo fissare una data?' and deeming wrong my reply 'Shall I set a date?'" caption="A false mistake" width="472" height="1024" %}
+
+{% include pattern-figure.html image="/assets/images/duolingo-mistake-2.jpg" alt="DeepL confirming I was right before" caption="DeepL confirming I was right" width="690" height="678" %}
+
+I'm aware that _do I need to set a date?_ isn't wrong, but I reported the mistake as false because my answer should have been accepted.
 
 ## Nobody in the UK speaks like that
 

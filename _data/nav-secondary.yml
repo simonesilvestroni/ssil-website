@@ -2,9 +2,6 @@ menu:
   - name: Ethics
     link: /ethics/
     desc: 'Ethics and philosophy'
-  - name: Uses
-    link: /uses/
-    desc: 'Equipment I use'
   - name: Blogroll
     link: /blogroll/
     desc: 'People I follow'

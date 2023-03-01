@@ -10,7 +10,7 @@ tags:
   - firefox
   - rss
   - feedbin
-  - reeder
+  - netnewswire
   - social media
   - mastodon
   - pixelfed

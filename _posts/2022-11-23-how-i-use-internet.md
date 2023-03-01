@@ -39,7 +39,7 @@ My first e-mail client was [Eudora](https://en.wikipedia.org/wiki/Eudora_(email_
 
 I can read newsletters there, collected within a single tag, follow my YouTube subscriptions while avoiding the website altogether. This strips their algorithm out, along with the noise of comments and whatnot. If the urge to interact comes up, it’s easy to click the link and go to the website.
 
-While I enjoy the web app on Android, I've been using [Reeder 5](https://reederapp.com/) on macOS, which perfectly supports Feedbin accounts.
+While I enjoy the web app on Android, I've been using the free and open-source [NetNewsWire 6](https://netnewswire.com/) on macOS, which supports Feedbin accounts in the best and cleaner possible way.
 
 Since I’m [not following mainstream news](/blog/degrowth/), the categories in Feedbin reflects my main interests:
 
@@ -57,7 +57,7 @@ Besides following subscriptions through RSS, I tend to save important videos off
 
 ## Read later
 
-After discovering the [pages functionality in Feedbin](https://feedbin.com/blog/2019/08/20/save-webpages-to-read-later/), I ditched my Pocket account. Reeder 5 handles them well, making it easy to save articles from the Mac.
+After discovering the [pages functionality in Feedbin](https://feedbin.com/blog/2019/08/20/save-webpages-to-read-later/), I ditched my Pocket account. NetNewsWire handles them well, making it easy to save articles from the Mac.
 
 ## Social interactions
 

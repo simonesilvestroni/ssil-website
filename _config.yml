@@ -1,3 +1,6 @@
+# -------------------
+# Main
+# -------------------
 host: "localhost"
 url: "https://simonesilvestroni.com"
 baseurl: ""
@@ -9,7 +12,7 @@ lang: "en-US"
 posts_limit: 20
 
 # -------------------
-# SEO
+# Configuration
 # -------------------
 title: Simone Silvestroni
 tagline: Web designer
@@ -32,6 +35,9 @@ logo: /assets/images/ssil-og-image.jpg
 author:
   name: Simone Silvestroni
   email: hello@simonesilvestroni.com
+mastodon:
+  instance: indieweb.social
+  username: m2m
 
 # -------------------
 # Brand

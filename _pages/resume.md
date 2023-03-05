@@ -13,7 +13,7 @@ I've been crafting websites from scratch with **`HTML`** and **`CSS`** since 199
 I can set up, run and maintain local and remote web servers in **`Apache`**, **`PHP`**, **`MySQL`** either through a GUI or **`SSH`**. I recently moved to static site generators with or without an **`headless CMS`**, especially digging **`Jekyll`** with its **`Liquid`** template language and **`Netlify`** for deployment and production builds. I use **`git`** as a versioning system, with Github as my preferred service.
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
-Check out all the [tools I use]({{ site.url }}/uses/) →
+Check out all the [tools I use](https://minutestomidnight.co.uk/uses/) ↗
 
 ## Experience
 

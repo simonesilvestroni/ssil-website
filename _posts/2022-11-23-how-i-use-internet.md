@@ -95,4 +95,4 @@ While I still prefer e-mail for communicating with people, I have an account on 
 
 I used IRC for a very long time. Don’t even know why I stopped, maybe the [network effect](https://en.wikipedia.org/wiki/Network_effect).
 
-I also maintain a [/uses page](/uses/) with a detailed list of equipment, both hardware and software.
+I also maintain a [/uses page](https://minutestomidnight.co.uk/uses/) ↗ with a detailed list of equipment, both hardware and software.

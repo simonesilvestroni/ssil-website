@@ -174,7 +174,7 @@ In his analysis, Luke has a detailed chapter about how he [writes on-the-go or o
 
 ## Deployment
 
-Since the deployment strategy is git-based I don’t think it’s wise to automate this step. I’ve been using either the terminal or [Sublime Merge]({{ site.url }}/uses/#git).
+Since the deployment strategy is git-based I don’t think it’s wise to automate this step. I’ve been using either the terminal or [Sublime Merge](https://minutestomidnight.co.uk/uses/) ↗.
 
 ## Future improvements
 

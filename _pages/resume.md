@@ -57,7 +57,7 @@ Co-founder, web designer and UI developer, I worked for clients like Reevoo, Not
 #### Publications
 
 {: .list-unstyled .ps-0 }
-- [How we work: a modern workflow for the multi-device web ↗︎](https://medium.com/ui-farm/how-we-work-a-modern-workflow-for-the-multi-device-web-4e0dcb081b5b) (article)
+- [How we work: a modern workflow for the multi-device web ↗︎](/blog/a-modern-workflow-for-the-multi-device-web/) (article)
 
 {: .fw-bold .mb-2 .pt-3 }
 ### Senior UI developer at Bodog

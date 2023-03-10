@@ -20,6 +20,6 @@ update: false
 
 <p class="p-summary text-start mt-2">A process analysis that has led UI Farm Ltd to their workflow for delivering modern web solutions.</p>
 
-<a class="btn-cta-m2m-bg d-inline-block rounded text-decoration-none my-2 px-2 py-1" href="https://medium.com/ui-farm/how-we-work-a-modern-workflow-for-the-multi-device-web-4e0dcb081b5b" title="Read the article">Read the article ↗</a>
+<a class="btn-cta-m2m-bg d-inline-block rounded text-decoration-none my-2 px-2 py-1" href="/blog/a-modern-workflow-for-the-multi-device-web/" title="Read the article">Read the article</a>
 
 </article>

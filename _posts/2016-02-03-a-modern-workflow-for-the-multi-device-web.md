@@ -19,6 +19,7 @@ tags:
   - 'a-b tests'
   - 'workflow'
   - 'agile'
+  - 'popular'
 description: 'UI Farm analyses the process that has led to their new workflow for delivering modern web solutions, by applying a sustainable and future-proof use of Responsive Web Design.'
 excerpt: 'In this article, <a href="https://web.archive.org/web/20201105212259/http://uifarm.co.uk/">UI Farm</a>, the London-based UI & UX agency, analyses the process that has led to their new workflow for delivering modern web solutions. By applying a sustainable and future-proof use of Responsive Web Design, UI Farm achieve performant, multi-device websites within an agile environment.'
 ---

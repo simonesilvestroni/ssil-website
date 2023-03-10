@@ -7,7 +7,7 @@ description: 'A web designer for two decades between Italy and the UK.'
 excerpt: 'In the early 1990s, I started a side job in the publishing industry while graduating as a professional musician. A decade later I learned web design, fascinated by code as a digital evolution of my past experience with the printed page.'
 permalink: '/about/'
 ---
-As a web designer, in line with my origins, I still <em>strive for minimalism</em>. With a vast experience in front-end development and some back-end, UI design and custom WordPress systems, my main focus is on accessibility and sustainability through a relentless stack optimization.
+As a web designer, in line with my origins, I still <em>strive for minimalism</em>. With a vast experience in front-end development and some back-end, UI design and custom WordPress systems, my main focus is on accessibility and sustainability through a relentless stack optimization. My current main development tool is Jekyll with its Liquid template language, while I design using Sketch and/or Figma.
 
 I also have a parallel career in audio as a professional musician, producer and game sound designer that I carry out under the moniker _Minutes to Midnight_.
 
@@ -18,7 +18,7 @@ Check out my [**audio work**](https://minutestomidnight.co.uk) →
 
 An avid reader, I follow recent tech trends through online media, Mastodon, workshops and newsletters. Trivia: I have a longstanding ~~obsession~~ fascination for typography.
 
-Constantly looking for a way to complete a task in less and more efficient steps, I ended up writing an ebook about [project management](https://minutestomidnight.co.uk/projects/project-management/).
+Constantly looking for a way to complete a task in less and more efficient steps, I ended up writing an ebook about [project management](https://minutestomidnight.co.uk/work/project-management/).
 
 {: .d-inline-block .border .border-3 .rounded .mt-3 .px-3 .py-3 }
 Read more in my [**resume**](/resume/) →

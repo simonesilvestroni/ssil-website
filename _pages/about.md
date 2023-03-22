@@ -61,7 +61,7 @@ The website has been developed from scratch using:
 - Table of contents Liquid code by [Vladimir "allejo" Jimenez](https://github.com/allejo/jekyll-toc)
 - Bash for building purposes
 - [Github](https://github.com/simonesilvestroni/ssil-website)
-- [Modern fonts stack](https://modernfontstacks.com/), in particular: System UI for everything except for headings (Rounded Sans) and serif interventions (Tranitional)
+- [Modern fonts stack](https://modernfontstacks.com/), in particular: System UI for everything except for headings (Rounded Sans) and serif interventions (Transitional)
 - [Netlify](https://netlify.com)
 
 ### Accessibility and sustainability

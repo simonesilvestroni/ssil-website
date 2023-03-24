@@ -8,4 +8,4 @@ layout: default
 {{ content }}
 </div>
 {% unless page.update == false %}{% include pattern-last-updated.html %}{% endunless %}
-{% include hcard-page.html %}
+<span class="visually-hidden">{% include hcard-page.html %}</span>

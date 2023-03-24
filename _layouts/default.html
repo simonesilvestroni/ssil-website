@@ -14,9 +14,6 @@
         {% if page.is_post %}
         <div class="post-meta my-5">
           <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
-          <span class="d-none">
-            {% include hcard-post.html %}
-          </span>
         </div>
         {% endif %}
         {%- if page.type == "tag" or page.type == "category" -%}
@@ -41,6 +38,7 @@
     {% endcomment %}
     <div class="container m2m-container">
       {{ content }}
+      <span class="visually-hidden">{% include hcard-post.html %}</span>
     </div>
   </article>
 </main>

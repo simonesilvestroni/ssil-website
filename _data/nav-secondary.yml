@@ -2,6 +2,9 @@ menu:
   - name: Ethics
     link: /ethics/
     desc: 'Ethics and philosophy'
+  - name: Colophon
+    link: /colophon/
+    desc: 'About this website'
   - name: Blogroll
     link: /blogroll/
     desc: 'People I follow'

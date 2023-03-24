@@ -18,7 +18,6 @@ tags:
   - reddit
   - sean parker
   - tristan harris
-  - popular
 description: "Finally, I’m leaving social media, Facebook, Twitter, Instagram, WhatsApp, Reddit, redirecting my attention and my time to something more productive."
 excerpt: 'Like plenty others, I’m finally leaving social media, and by that I mean Facebook, Twitter, Instagram, WhatsApp, Pinterest and Reddit. This post is a personal point of view, it’s not intended as an exhaustive analysis on what is going on with social media, nor am I trying to convince anybody. I’m just <strong>redirecting my attention and my time</strong> to something more productive.'
 ---

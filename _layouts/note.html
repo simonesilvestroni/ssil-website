@@ -1,22 +1,17 @@
 ---
 layout: default
 ---
-<div class="my-5">
-  <div class="post-meta mt-3 mb-5">
-    <span>
-      <time class="dt-published visually-hidden" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
-    </span>
-    <span class="d-inline-block border border-3 rounded px-3 py-3"><strong>In reply to</strong> <a href="{{ page.replyto }}" class="u-in-reply-to">{{ page.replyto }}</a> ↗</span>
-  </div>
-  <span class="e-content">
-    <span class="visually-hidden">
-      <span class="p-author h-card">
-        <img class="u-photo" src="{{ site.url }}/assets/images/simonesilvestroni-avatar-uphoto.png" alt="Minutes to Midnight's avatar" width="48" height="48">
-        <a class="p-name u-url u-uid" href="{{ site.url }}{{ page.url }}" rel="author">Simone Silvestroni</a>
-      </span>
-    </span>
-    {{ content }}
+<div class="post-meta mt-3 mb-5">
+  <span>
+    <time class="dt-published visually-hidden" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
   </span>
+  <span class="d-inline-block border border-3 rounded px-3 py-3"><strong>In reply to</strong> <a href="{{ page.replyto }}" class="u-in-reply-to">{{ page.replyto }}</a> ↗</span>
+  {%- if page.originalpost -%}
+  <span class="visually-hidden">↪️ <a href="{{ site.url }}/blog/{{ page.originalpostURL }}/" class="u-in-reply-to">Original post</a></span>
+  {% endif %}
+</div>
+<div class="e-content my-5">
+  {{ content }}
 </div>
 <div class="m2m-label text-center text-md-start pt-2">
   <a class="btn-cta-m2m-bg d-inline-block text-decoration-none rounded my-2 px-2 py-1" href="/notes/">← <span class="p-category">Notes</span></a>

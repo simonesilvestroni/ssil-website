@@ -9,26 +9,25 @@ skillset:
  - jekyll
  - liquid
  - markdown
- - sass
- - postCSS
+ - html
+ - css
  - netlify
- - node
- - bootstrap 5
  - git
  - bash
  - microformats
  - webmentions
+ - indieweb
 description: 'Why my current website, built with Jekyll and Netlify, eclipses the previous one on IA, performance, sustainability and maintenance.'
 excerpt: false
 summary: '<strong>Migrating from WordPress</strong> to a static site generator has been a blessing. In this case study, I explain why my current website, built on Jekyll and hosted on Netlify, eclipses the previous one on <abbr title="Information Architecture">IA</abbr>, performance, sustainability and maintenance.'
 toc: true
 featimage: true
 featimage-url: '/assets/images/minutes-to-midnight.jpg'
-featimage-height: '574'
+featimage-height: '896'
 performance: true
 googlescore: '100'
 speedindex: '0.4 seconds'
-pageweight: '100Kb (uncompressed)'
+pageweight: '63Kb (uncompressed)'
 site-is-live: true
 live-url: 'https://minutestomidnight.co.uk'
 permalink: '/projects/web-design/minutes-to-midnight/'
@@ -64,36 +63,36 @@ To avoid too many SEO issues, I used a redirection feature provided by Netlify i
 https://blog.minutestomidnight.co.uk/* https://minutestomidnight.co.uk/blog/:splat 301!
 ```
 
-I then [proceeded to importing](https://import.jekyllrb.com/docs/wordpress/) posts and pages. Since I decided to refactor taxonomy, I bypassed it. A basic Jekyll-based website has a simple directory tree. In my case (I'm omitting redundant and subsequent additions):
+I then [proceeded to importing](https://import.jekyllrb.com/docs/wordpress/) posts and pages. A basic Jekyll website has a simple directory tree. In my case (I'm omitting redundant and subsequent additions):
 
 ```
 . 
 ├── 📂 _data
 │    ├── 📄 nav-main.yml
 │    ├── 📄 nav-social.yml
-│    └── 📄 <etc>
+│    └── 📄 [...]
 ├── 📂 _drafts
 │    ├── 📝 test.md
-│    └── 📝 <etc>
+│    └── 📝 [...]
 ├── 📂 _includes
-│    ├── 📄 pattern-button.md
-│    ├── 📄 site-seo.html
-│    └── 📄 <etc>
+│    ├── 📄 pattern-figure.md
+│    ├── 📄 site-header.html
+│    └── 📄 [...]
 ├── 📂 _layouts
 │    ├── 📄 blog.html
 │    ├── 📄 default.html
-│    └── 📄 <etc>
+│    └── 📄 [...]
 ├── 📂 _pages
 │    ├── 📂 projects
 │    │    ├── 📝 index.md
 │    │    └── 📝 <etc>
 │    ├── 📝 about.md
 │    ├── 📝 archive.md
-│    └── 📝 <etc>
+│    └── 📝 [...]
 ├── 📂 _posts
 │    ├── 📝 2021-08-13-berlin-91.md
 │    ├── 📝 2022-03-02-bandcamp-joins-epicgames.md
-│    └── 📝 <etc>
+│    └── 📝 [...]
 ├── 📁 _site
 ├── 📂 assets
 │    ├── 📂 css
@@ -101,17 +100,9 @@ I then [proceeded to importing](https://import.jekyllrb.com/docs/wordpress/) pos
 │    │    └── 📄 m2m.min.css
 │    ├── 📂 images
 │    │    ├── 🌠 m2m-og-image.jpg
-│    │    ├── 🌠 watercolor.png
-│    │    └── 🌠 <etc>
+│    │    └── 🌠 [...]
 │    └── 📁 js
-├── 📂 category
 ├── 📂 tag
-├── 📂 sass
-│    ├── 📁 bootstrap
-│    ├── 📄 _m2m-functions.scss
-│    ├── 📄 _m2m-theme.scss
-│    ├── 📄 _<etc>
-│    └── 📄 m2m.scss
 ├── 📄 .gitignore
 ├── 📝 404.html
 ├── 📄 _config.yml
@@ -119,7 +110,8 @@ I then [proceeded to importing](https://import.jekyllrb.com/docs/wordpress/) pos
 ├── 🌠 favicon.ico
 ├── 📄 Gemfile
 ├── 📝 index.html
-├── 📄 package.json
+├── 📄 robots.txt
+├── 📄 sitemap.xml
 .
 
 ```
@@ -154,7 +146,7 @@ An array of components are collected in the `_includes/` folder. They can be sit
 My simple module to embed YouTube videos, called `pattern-video.html`:
 
 ```liquid
-{% raw %}<div class="video iframe-container{{ include.margin | default: "my-5" | prepend: ' ' }}">
+{% raw %}<div class="video iframe-container">
   <iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/{{ include.id }}" frameborder="0" allowfullscreen title="{{ include.title | default: "Video" }}"></iframe>
 </div>{% endraw %}
 ```
@@ -181,7 +173,7 @@ Posts, notes, pages and projects are written in Markdown. Jekyll's [Kramdown](ht
 
 ## Design
 
-The theme is handcrafted by applying styles to the layouts. I'm using a subset of Bootstrap's SASS source as a base, with my theme and functionality built on top of it. I'm planning to ditch Bootstrap in the near future for a custom-made micro framework written in pure traditional CSS with a utility-first classes approach. Once the SASS is compiled, the build process takes care of various optimizations. I only load the minified stylesheet on production:
+The theme is handcrafted by applying styles to the layouts. I'm using [Simple CSS](https://simplecss.org) as a base, with my custom components built in plain CSS on top of it. I only load a minified stylesheet on production:
 
 ```html
 {% raw %}{% if jekyll.environment == "production" -%}
@@ -227,24 +219,18 @@ I get into proper SEO territory next, by including `site-seo.html`, which is mad
 - [Open Graph](https://ogp.me/). This is the content appearing in the 'card' which unfurls when links from my website are shared to Facebook, LinkedIn, Twitter and instant messengers like Telegram or WhatsApp. I check for `description` and the presence of a featured image, again with fallbacks.
   ```html
   {% raw %}<!-- Open graph -->
-  <meta property="og:title" content="{%- include site-meta-title.html -%}" />
-  <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif note.description %}{{ note.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.featimage %}{{ site.url }}{{ page.featimage-url }}{% else -%}{{ site.logo | prepend: site.url }}{% endif %}" />
+  <meta property="og:title" content="{%- include site-meta-title.html -%}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif note.description %}{{ note.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{% if page.featimage %}{{ site.url }}{{ page.featimage-url }}{% else -%}{{ site.logo | prepend: site.url }}{% endif %}">
   <!-- LinkedIn -->
-  <meta prefix="og: https://ogp.me/ns#" property="og:title" content="{%- include site-meta-title.html -%}" />
-  <meta prefix="og: https://ogp.me/ns#" property="og:type" content="website" />
-  <meta prefix="og: https://ogp.me/ns#" property="og:description" content="{% if page.description %}{{ page.description }}{% elsif note.description %}{{ note.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta prefix="og: https://ogp.me/ns#" property="og:image" content="{% if page.featimage %}{{ site.url }}{{ page.featimage-url }}{% else -%}{{ site.logo | prepend: site.url }}{% endif %}" />
-  <meta prefix="og: https://ogp.me/ns#" property="og:url" content="{{ page.url | prepend: site.url }}" />
-  <!-- Twitter integration -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{%- include site-meta-title.html -%}" />
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif note.description %}{{ note.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name="twitter:image" content="{% if page.featimage %}{{ site.url }}{{ page.featimage-url }}{% else -%}{{ site.logo | prepend: site.url }}{% endif %}" />{% endraw %}
+  <meta prefix="og: https://ogp.me/ns#" property="og:title" content="{%- include site-meta-title.html -%}">
+  <meta prefix="og: https://ogp.me/ns#" property="og:type" content="website">
+  <meta prefix="og: https://ogp.me/ns#" property="og:description" content="{% if page.description %}{{ page.description }}{% elsif note.description %}{{ note.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta prefix="og: https://ogp.me/ns#" property="og:image" content="{% if page.featimage %}{{ site.url }}{{ page.featimage-url }}{% else -%}{{ site.logo | prepend: site.url }}{% endif %}">
+  <meta prefix="og: https://ogp.me/ns#" property="og:url" content="{{ page.url | prepend: site.url }}" />{% endraw %}
   ```
 - [Schema](https://schema.org/docs/documents.html) is "a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond."
   ```html
@@ -277,7 +263,7 @@ I get into proper SEO territory next, by including `site-seo.html`, which is mad
     },
     "sameAs": [
       "https://indieweb.social/@m2m",
-      "https://uk.linkedin.com/in/minutes2mid/",
+      "https://uk.linkedin.com/in/simonesilvestroni/",
       "https://github.com/simonesilvestroni/",
     ],
     {%- if page.featimage %}
@@ -303,48 +289,18 @@ Without using Yoast or any other SEO plug-ins, several benchmarks gives optimal 
 
 ## File management
 
-Since I don't need any set up for Apache, PHP or MySQL, file management is extremely easy. Using GitHub as a versioning system, my local website directory is a perfect mirror of the remote repository. Again, all my images, CSS or other assets are kept together with the source code. No external database to be backed up, no extra maintenance.
+Since I don't need any setup for Apache, PHP or MySQL, file management is extremely easy. Using GitHub as a versioning system, my local website directory is a perfect mirror of the remote repository. Again, all my images, CSS or other assets are kept together with the source code. No external database to be backed up, no extra maintenance.
 
 ## Build process
-In place of Jekyll's internal build tasks, I use <kbd>Node.js</kbd>. The following is the `scripts` section in my `package.json` configuration:
+I use [Bash](https://www.gnu.org/software/bash/) to run Jekyll's internal build tasks, using appropriate aliases in my `.bash_profile` for regular localhost preview, serving drafts and future posts.
 
-```json
-"scripts": {
-  "serve": "bundle exec jekyll serve --livereload",
-  "servedraft": "bundle exec jekyll serve --drafts --livereload",
-  "servefuture": "bundle exec jekyll serve --drafts --future --livereload",
-  "watch": "sass --watch sass:assets/css",
-  "start": "npm-run-all --parallel serve watch",
-  "css-compile": "sass --style expanded --embed-sources --no-error-css sass/:assets/css/",
-  "css-purge": "purgecss --css \"assets/css/m2m.css\" --content \"_site/**/*.html\" --safelist active --output \"assets/css\"",
-  "css-prefix": "npx postcss \"assets/css/m2m.css\" --use autoprefixer -d assets/css/",
-  "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map-inline-sources --output assets/css/ --batch --batch-suffix \".min\" \"assets/css/*.css\" \"!assets/css/*.min.css\"",
-  "css": "npm-run-all css-compile css-purge css-prefix css-minify"
-}
-```
-
-### Serving locally
-
-I've recently merged the two tasks `serve` and `watch` (respectively running the website and compiling CSS at every SASS edit). With the new collective task `start` I can run a single command to manage both in parallel. By creating an alias in my `.bash_profile`, I simply type <kbd>m2mrun</kbd>.
-
-I've also added scripts to see drafts and future posts before committing to git and deploy to production.
-
-### CSS
-
-1. `css-compile` renders SASS into plain CSS, which is what I use for local debugging.
-2. `css-purge` removes unused CSS code using [PostCSS](https://postcss.org/).
-3. `css-prefix` automatically adds vendor prefixes to non-standard CSS instructions.
-4. `css-minify` creates the final minified version for production.
-
-The above process brings my CSS from `337 KB` (including the `.css.map` file) down to `39 KB`.
-
-### Javascript
+## Javascript
 
 I don't compile nor minify Javascript because I only use it for search engine and webmentions, which I never need to edit.
 
 ## Performance, accessibility and sustainability
 
-I've been treating **performance as a design feature** for more than ten years. The complete size of the website is currently **40.4 MB**, which includes everything from source code to the images. It's a whopping `94.6%` reduction from before. 
+I've been treating **performance as a design feature** for more than ten years. The complete size of the website source code is currently `1.1 MB`, reaching a root total of `23 MB` including images and a `13 MB` PDF file. It's more than a `96%` reduction from before.
 
 What contributes to my Pagespeed and Lighthouse score of `100` on performance, accessibility and SEO?
 
@@ -355,7 +311,7 @@ What contributes to my Pagespeed and Lighthouse score of `100` on performance, a
 - Avoid Javascript when valid alternatives can be employed.
 - Multi-platform font stacks.
 - Optimization of static assets.
-- A fast server.
+- A fast and green server.
 
 I took care of removing files that are not needed on the live server, by adding a second `config-production.yml` which is called in my build command on Netlify. The final benchmarks:
 
@@ -388,7 +344,7 @@ Accessibility benchmarks:
 
 Sustainability notes:
 
-Only `0.02g of CO2` is produced every time someone visits the homepage. Cleaner than `98%` of [web pages tested](https://www.websitecarbon.com/website/minutestomidnight-co-uk/ "Visit Website carbon").
+Only `0.01g of CO2` is produced every time someone visits the homepage. Cleaner than `99%` of [web pages tested](https://www.websitecarbon.com/website/minutestomidnight-co-uk/ "Visit Website carbon").
 
 ## Search engine
 

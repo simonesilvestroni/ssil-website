@@ -318,29 +318,7 @@ All tests after the new module was released gave stunning results: despite a tot
 
 {% include pattern-figure.html image="/assets/images/gallery-pagespeed-end-results-mobile.jpg" alt="Google Pagespeed results" width="920" height="611" %}
 
-### Local development
-
-Both our dev environments benefited from significant improvements:
-
-- The local file structure is now simplified and lighter.
-- `node_modules` went from 172 MB to 16 MB.
-- `package.json` shrinked to 44 lines of code, including the dependencies we use to run scripts and automation needed to build and optimize the websites:
-
-```json
-"devDependencies": {
-  "jekyll": "^3.0.0-beta1",
-  "sass": "^1.49.8",
-  "npm-run-all": "^4.1.5",
-  "clean-css": "^5.2.4",
-  "clean-css-cli": "^5.5.2",
-  "postcss": "^8.4.6",
-  "postcss-cli": "^9.1.0",
-  "autoprefixer": "^10.4.2",
-  "purgecss": "^4.1.3"
-}
-```
-
-## Full source code
+## Source code
 
 Check out my public gists for the three files:
 

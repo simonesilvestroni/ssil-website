@@ -1,10 +1,8 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.2"
-gem "webrick", "~> 1.7"
+# git_source(:github) { |nsd| "https://github.com/#{nsd}" }
 
-group :jekyll_plugins do
-  gem 'jekyll-sitemap', '~> 1.4'
-  gem 'jekyll-archives', '~> 2.2.1'
-  gem 'jekyll-responsive-image', '~> 1.6'
-end
+gem "jekyll"
+gem "webrick"

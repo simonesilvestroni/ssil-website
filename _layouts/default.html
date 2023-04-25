@@ -1,72 +1,27 @@
-{%- include site-head.html %}
-<body class="layout-{{ page.layout }} {% if page.is_post %}post{% elsif page.type %}{{ page.type }}{% else %}page{% endif %}-{{ page.title | slugify }}" id="top">
-{% comment %}
-  *-------------------------
-  Header
-  -------------------------*
-{% endcomment %}
-{% include site-header.html %}
-<main class="h-entry m2m-main">
-  <article class="m2m-entry">
-    <header class="mt-5">
-      <div class="container m2m-container" id="m2m-content">
-        <h1 class="p-name">{% if page.url == "/" %}Updates{% else %}{% if page.url contains "/tag/" %}{{ page.title | capitalize }}{% else %}{{ page.title }}{% endif %}{% endif %}{% if page.layout == 'note' %}: {{ page.date | date: "%-d %B %Y" }}{% endif %}</h1>
-        {% if page.is_post %}
-        <div class="post-meta my-5">
-          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
-        </div>
-        {% endif %}
-        {%- if page.type == "tag" or page.type == "category" -%}
-        <p class="p-summary lead my-3">This is an archive page for the {% if page.type == "tag" %}tag.{% elsif page.type == "category" %}category.{% endif %}</p>
-        {% endif %}
-        {% unless page.layout == 'note' %}
-        {%- if page.excerpt %}
-        <p class="p-summary lead">
-          {%- if page.collection == 'webdesign' %}
-          {{ page.summary }}
-          {% else %}
-          {{ page.excerpt }}</p>
-          {% endif %}
-        {% endif -%}
-        {% endunless %}
-      </div>
-    </header>
-    {% comment %}
-      *-------------------------
-      Content
-      -------------------------*
-    {% endcomment %}
-    <div class="container m2m-container">
-      {{ content }}
-      <span class="visually-hidden">{% include hcard-post.html %}</span>
-    </div>
-  </article>
-</main>
-{% comment %}
-  *-------------------------
-  Footer
-  -------------------------*
-{% endcomment %}
-{% include site-footer.html %}
-{% comment %}
-  *-------------------------
-  Javascript
-  -------------------------*
-{% endcomment %}
-{%- if page.url contains '/search' or page.url contains '404.html' -%}
-{%- if jekyll.environment == "production" %}
-<script src="/assets/js/search-ssil.min.js"></script>
-{% else %}
-<script src="/assets/js/fetch.js"></script>
-<script src="/assets/js/search.js"></script>
-{% endif -%}
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" dir="ltr" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<title>{%- include site-title.html -%}</title>
+{% include site-meta.html %}
+{% if jekyll.environment == "production" -%}
+<link rel="stylesheet" href="{{ site.url }}/assets/css/morula.min.css">
+{% else -%}
+<link rel="stylesheet" href="{{ site.url }}/assets/css/morula.css">
 {%- endif -%}
-{%- if page.is_post or page.collection == 'notes' -%}
-{%- if jekyll.environment == "production" %}
-<script src="/assets/js/webmention.min.js" data-prevent-spoofing="true" async></script>
-{%- else -%}
-<script src="/assets/js/webmention.js" async></script>
-{% endif -%}
-{% endif -%}
+<link rel="icon" href="{{ site.url }}/favicon.ico" sizes="any">
+<link rel="icon" href="{{ site.url }}/assets/img/favicons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/img/favicons/apple-touch-icon.png">
+<link rel="manifest" href="{{ site.url }}/assets/img/site.webmanifest">
+<link rel="canonical" href="{{ page.url |  replace:'index.html','' | absolute_url }}">
+</head>
+<body class="h-entry">
+  <header>
+    <h1 class="p-name"><a href="{{ site.url }}" title="Go back to the home page">{% include site-logo.html %}</a></h1>
+    {% include site-nav.html %}
+  </header>
+  <main class="e-content">
+    {{ content }}
+  </main>
+  {% include site-footer.html %}
 </body>
 </html>

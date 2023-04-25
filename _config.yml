@@ -1,50 +1,21 @@
-# -------------------
-# Main
-# -------------------
 host: "localhost"
 url: "https://simonesilvestroni.com"
-baseurl: ""
-lang: "en-US"
-
-# -------------------
-# Feeds
-# -------------------
-posts_limit: 20
-
-# -------------------
-# Configuration
-# -------------------
-title: Simone Silvestroni
-tagline: Web designer
-description: I design and code accessible websites using Jekyll or WordPress since 1998.
-permalink: /blog/:title/
-keywords:
-  simone silvestroni,
-  web design,
-  web development,
-  front-end,
-  jekyll,
-  html,
-  css,
-  jamstack,
-  sass,
-  yaml,
-  liquid
-timezone: Europe/Berlin
-logo: /assets/images/ssil-og-image.jpg
-author:
-  name: Simone Silvestroni
-  email: hello@simonesilvestroni.com
+canonical_url: "https://simonesilvestroni.com"
+lang: "en-GB"
+title: "Simone Silvestroni"
+description: 'I’ve been designing and coding accessible websites since 1998, now using Jekyll and Jamstack.'
+tagline: 'Web designer and developer'
+pitch: 'Currently on a hiatus, as I’m focused on a parallel career in game audio sound design.'
+logo: 
+  url: "/assets/img/minutestomidnight-glyph.svg"
+  alt: "Minutes to Midnight glyph logo"
+  width: 180
+  height: 180
+opengraph:
+  url: "/assets/img/ssil-og.jpg"
 mastodon:
   instance: indieweb.social
   username: m2m
-
-# -------------------
-# Brand
-# -------------------
-brand:
-  ssil_pitch: 'I’m Simone Silvestroni 👋'
-  ssil_intro: 'I design and code accessible websites since 1998, now using Jekyll and WordPress.'
 
 # -------------------
 # Exclusions
@@ -58,89 +29,28 @@ exclude:
 include: ["_pages", "_redirects"]
 
 # -------------------
-# Defaults
+# SEO
 # -------------------
+timezone: Europe/Berlin
+keywords:
+  simone silvestroni,
+  web design,
+  web development,
+  sound design,
+  front-end,
+  ux,
+  user experience,
+  jekyll,
+  wordpress,
+  jamstack,
+  html,
+  css
+
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      is_post: true
-      layout: "post"
   - scope:
       path: ""
     values:
       layout: "default"
-  - scope:
-      path: "assets/images"
-    values:
-      image: true
-  - scope:
-      path: ""
-      type: "collections"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "note"
-  - scope:
-      path: ""
-      type: "webdesign"
-    values:
-      layout: "project"
-
-# -------------------
-# Collections
-# -------------------
-collections:
-  webdesign:
-    output: true
-    permalink: /projects/web-design/:path/
-  notes:
-    output: true
-    permalink: /note/:path/
-
-# -------------------
-# Archives
-# -------------------
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: cats-tags
-  permalinks:
-    category: '/blog/category/:name/'
-    tag: '/blog/tag/:name/'
-  slug_mode: latin
-
-excerpt_separator: <!--more-->
-
-# -------------------
-# Responsive images
-# -------------------
-responsive_image:
-  template: _includes/pattern-responsive-image.html
-  sizes:
-    - width: 576
-      quality: 80
-    - width: 768
-      quality: 80
-    - width: 992
-      quality: 80
-    - width: 1200
-      quality: 85
-  strip: true
-  output_path_format: assets/images/responsive/%{width}/%{basename}
-
-# -------------------
-# Plugins
-# -------------------
-plugins:
-  - jekyll-sitemap
-  - jekyll-archives
-  - jekyll-responsive-image
 
 # -------------------
 # Work endorsements
@@ -158,11 +68,3 @@ endorsements:
     role: 'UX and interaction design manager at UniCredit'
     url: 'https://www.linkedin.com/in/rosati/'
     quote: 'My experience of working with Simone has always been very positive and enjoyable. Simone always takes a pragmatic and investigative approach to finding solutions for our needs and has very friendly and helpful attitude. His attention to detail makes him always deliver perfect coded products, saving us time and concerns on the web projects he develops.'
-
-# -------------------
-# Work certifications
-# -------------------
-certifications:
-  - name: 'Former member of <a href="https://iwanet.org/">IWA</a>'
-  - name: 'Nielsen Norman Group UX Conference, 2010, London'
-  - name: 'PHP development course by HTML.IT, 2009, Milan'

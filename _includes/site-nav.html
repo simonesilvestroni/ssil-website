@@ -1,0 +1,5 @@
+<nav aria-label="Main navigation">
+  {% for item in site.data.nav-main.menu -%}
+  <a{% if page.url contains item.link %} class="current"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor -%}
+</nav>

@@ -1,0 +1,5 @@
+{%- if page.url == '/' -%}
+{{ site.title | append: ' - ' }}{{ site.tagline }}
+{%- else -%}
+{{ site.title | append: ' - ' }}{{ page.title }}
+{%- endif -%}

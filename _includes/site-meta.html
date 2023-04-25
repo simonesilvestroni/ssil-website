@@ -1,10 +1,45 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{%- if page.robots %}
-<meta name="robots" content="{{ page.robots }}">
-{% else %}
-<meta name="robots" content="index, follow">
-{% endif -%}
-<title>{% include site-meta-title.html %}</title>
-<link href='/feed.xml' rel='alternate' type='application/atom+xml'>
+<meta name="robots" content="index, follow, noai, noimageai">
+<meta name="description" content="{{ site.description }}">
+<meta property="og:title" content="{%- include site-title.html -%}">
+<meta property="og:url" content="{{ page.url | prepend: site.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="{{ site.opengraph.url | prepend: site.url }}">
+<meta prefix="og: https://ogp.me/ns#" property="og:title" content="{{ site.title }}">
+<meta prefix="og: https://ogp.me/ns#" property="og:type" content="website">
+<meta prefix="og: https://ogp.me/ns#" property="og:description" content="{{ site.description }}">
+<meta prefix="og: https://ogp.me/ns#" property="og:image" content="{{ site.opengraph.url | prepend: site.url }}">
+<meta prefix="og: https://ogp.me/ns#" property="og:url" content="{{ page.url | prepend: site.url }}">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Milan, Italy",
+    "postalCode": "20132",
+  },
+  "logo": "{{ site.opengraph.url | prepend: site.url }}",
+  "headline": "{%- include site-title.html -%}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "description": "{{ site.description }}",
+  "keywords": "{{ site.keywords }}",
+  "datePublished": "{{ page.date }}",
+  "dateModified": "{{ page.last_modified_at }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": "1200",
+    "height": "628",
+    "url": "{{ site.opengraph.url | prepend: site.url }}"
+  }
+}
+</script>

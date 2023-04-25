@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-{%- if page.toc == true %}
-  {% include pattern-toc.html html=content sanitize=true class="inline_toc" id="toc" h_min=2 h_max=2 %}
-{% endif -%}
-<div class="e-content">
-{{ content }}
-</div>
-{% unless page.update == false %}{% include pattern-last-updated.html %}{% endunless %}
-<span class="visually-hidden">{% include hcard-page.html %}</span>
+<article>
+  <header>
+    <h2>{{ page.title }}</h2>
+  </header>
+  <p>{{ page.description }}</p>
+  {{ content }}
+</article>

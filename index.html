@@ -1,38 +1,16 @@
 ---
-title: 'Simone Silvestroni - Web designer'
-date: '2022-11-22 21:08:36'
-last_modified_at: '2022-11-22 21:08:39'
-update: false
+layout: default
+title: Morula
+date: 2022-05-17 18:27:36
+last_modified_at: 2023-04-24 23:11:17
 ---
-<div class="h-entry">
-  {% comment %}
-    *-------------------------
-    Latest posts
-    -------------------------*
-  {% endcomment %}
-  <section class="h-feed">
-    {%- assign recentPosts = site.posts | sort: 'date' | reverse -%}
-    <h2 class="mb-4 h3">Blog</h2>
-    <ul class="list-unstyled ps-0 mb-0">
-    {%- for post in recentPosts limit: 4 -%}
-    <li class="mt-2 fs-5"><a href="{{ post.url }}" title="Read the post">{{ post.title }}</a></li>
-    {% endfor -%}
-    </ul>
-  </section>
-  {% comment %}
-    *-------------------------
-    Latest projects
-    -------------------------*
-  {% endcomment %}
-  <section class="h-feed">
-    {%- assign webdesign = site.webdesign -%}
-    {%- assign projects = webdesign | sort: 'date' | reverse -%}
-    <h2 class="mb-4 h3">Projects</h2>
-    <ul class="list-unstyled ps-0 mb-0">
-    {% for project in projects limit: 4 %}
-    <li class="mt-2 fs-5"><a href="{{ project.url }}" title="Read the case study">{{ project.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </section>
-  <span class="visually-hidden">{% include hcard-page.html %}</span>
+<div class="logo outer-circle">
+  <div class="inner-circle">
+    <img src="{{ site.logo.url }}" alt="{{ site.logo.alt }}" width="{{ site.logo.width }}" height="{{ site.logo.height }}">
+  </div>
+  <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+</div>
+<div>
+  <p>{{ site.description }}</p>
+  <p class="notice">{{ site.pitch }} <a href="/about/">Read more</a></p>
 </div>

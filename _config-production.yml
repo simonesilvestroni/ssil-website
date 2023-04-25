@@ -1,8 +1,3 @@
 exclude:
   - README.md
-  - assets/css/ssil.css
-  - assets/js/fetch.js
-  - assets/js/search.js
-  - assets/js/webmention.js
-
-include: ["_pages", "_redirects", "assets/js/search.json"]
+  - assets/css/morula.css

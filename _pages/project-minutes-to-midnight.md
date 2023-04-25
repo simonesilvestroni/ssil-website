@@ -272,7 +272,7 @@ As a static site generator, Jekyll lacks two features: a search functionality an
 
 ### Integrations: Webmentions, Indieweb
 
-After deciding to avoid third-party commenting systems, I turned to [webmentions](https://minutestomidnight.co.uk/search/blog/indieweb-and-webmentions-for-my-static-site/), a decentralized way to interact with other websites' posts, notes, likes and reposts.[^6]
+After deciding to avoid third-party commenting systems, I turned to [webmentions](https://minutestomidnight.co.uk/blog/indieweb-and-webmentions-for-my-static-site/), a decentralized way to interact with other websites' posts, notes, likes and reposts.[^6]
 
 I've been out of mainstream social networks since 2020, so putting my website at the center of my online presence seemed perfect.
 

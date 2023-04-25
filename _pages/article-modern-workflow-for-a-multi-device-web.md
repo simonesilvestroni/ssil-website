@@ -178,7 +178,7 @@ UI Farm adheres strictly to industry web coding standards.
 
 ### Performance
 
-As stated by Brad Frost in his post [Prioritizing Performance In Responsive Design](http://bradfrostweb.com/blog/post/prioritizing-performance-in-responsive-design/), citing a [research by Guy Podjarny](http://www.guypo.com/rwd-ratio-in-top-100000-websites-refined/): 
+As stated by Brad Frost in his post [Prioritizing Performance In Responsive Design](http://bradfrostweb.com/blog/post/prioritizing-performance-in-responsive-design/), citing a [research by Guy Podjarny](https://web.archive.org/web/20160618025210/http://www.guypo.com/rwd-ratio-in-top-100000-websites-refined/): 
 
 > 86% of responsive sites send about the same hefty payload to small screens as they do to large screens. 
 

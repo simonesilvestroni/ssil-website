@@ -8,6 +8,7 @@
   --border: #999999;
   --standard-border-radius: 6px;
   --sans-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  --serif-font: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   --mono-font: ui-monospace,monospace;
 }
 
@@ -44,8 +45,9 @@ header {
   max-width: 767px;
   margin: 0 auto;
 }
-header > h1 {
+header {
   text-align: center;
+  padding-top: 2rem;
 }
 nav {
   text-align: center;
@@ -58,14 +60,15 @@ nav > a {
 }
 
 /* Headings */
-h1, h2, h3 {
-  font-family: 'Georgia', serif;
+h1, h2, h3, h4 {
+  font-family: var(--serif-font);
   font-weight: 300;
+  text-align: left;
 }
-h1 { font-size: 2.2rem; }
-h2 { font-size: 1.6rem; margin-top: 3rem; }
-h3 { font-size: 1.45rem; margin-top: 2.5rem; }
-h4 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 0; }
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; margin-top: 3rem; }
+h3 { font-size: 1.8rem; margin-top: 2.5rem; }
+h4 { font-size: 1.4rem; margin-top: 2rem; margin-bottom: 0; }
 /* Prevent long strings from overflowing container */
 p, h1, h2, h3, h4 {
   overflow-wrap: break-word;
@@ -211,7 +214,10 @@ table caption {
   padding-bottom: 0.75rem;
 }
 .resume-experience h4 {
-  text-transform: uppercase;
+  font-family: var(--sans-font);
+  font-variant: small-caps;
+  font-weight: bold;
+  text-transform: lowercase;
 }
 /* Classes */
 .current {

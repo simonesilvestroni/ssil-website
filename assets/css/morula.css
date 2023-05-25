@@ -57,10 +57,7 @@ nav > a {
   padding: 0 0.5rem;
 }
 
-/* ----------------------------------------
- * $HEADINGS
- * ---------------------------------------- */
-
+/* Headings */
 h1, h2, h3 {
   font-family: 'Georgia', serif;
   font-weight: 300;
@@ -251,14 +248,14 @@ table caption {
   height: 200px;
   width: 200px;
   background: linear-gradient(#4CAAA4, #C5B531, #8E8CC7);
-/*  border-radius: 50%;*/
+  border-radius: 50%;
 }
 .outer-circle span {
   position: absolute;
   height: 200px;
   width: 200px;
   background: linear-gradient(#4CAAA4, #C5B531, #8E8CC7);
-/*  border-radius: 50%;*/
+  border-radius: 50%;
 }
 .outer-circle span:nth-child(1) { filter: blur(5px); }
 .outer-circle span:nth-child(2) { filter: blur(10px); }
@@ -271,7 +268,7 @@ table caption {
   background: black;
   top: 10px;
   left: 10px;
-/*  border-radius: 50%;*/
+  border-radius: 50%;
   z-index: 9;
 }
 .footnote {

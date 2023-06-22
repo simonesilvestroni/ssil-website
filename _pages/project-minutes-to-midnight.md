@@ -204,7 +204,7 @@ Things I added next:
       "@id": "{{ site.url }}{{ page.url }}"
     },
     "sameAs": [
-      "https://indieweb.social/@m2m",
+      "https://sonomu.club/@m2m",
       "https://uk.linkedin.com/in/simonesilvestroni/",
       "https://github.com/simonesilvestroni/",
     ],

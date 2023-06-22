@@ -9,4 +9,4 @@ permalink: '/contact/'
 - [Main website and blog](https://minutestomidnight.co.uk)
 - [GitHub](https://github.com/simonesilvestroni)
 - [LinkedIn](https://www.linkedin.com/in/simonesilvestroni/)
-- [Mastodon](https://indieweb.social/@m2m)
+- [Mastodon](https://sonomu.club/@m2m)

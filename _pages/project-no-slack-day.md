@@ -40,4 +40,4 @@ A cool initiative by an elusive client of mine, No Slack Day is a yearly reminde
   </tbody>
 </table>
 
-<a class="button big" href="https://noslackday.org/"><strong>Visit the live site</strong></a>
+<a class="button big" href="https://web.archive.org/web/20230402145306/https://www.noslackday.org/"><strong>Visit the live site</strong></a>

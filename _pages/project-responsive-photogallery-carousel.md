@@ -13,22 +13,22 @@ skillset:
 description: 'I built a photogallery carousel in pure HTML and CSS featuring responsive images and touch controls for mobile devices.'
 permalink: '/project-responsive-photogallery-carousel/'
 ---
-<div class="notice">
-  <h3>Skills</h3>
+<div class="warning">
+  <h2>Skills</h2>
   {% for skill in page.skillset %}
-  <kbd>{{ skill }}</kbd>
+  <mark>{{ skill }}</mark>
   {% endfor %}
 </div>
 
 In a quest to continuous performance optimization, I created an image gallery carousel in pure HTML and CSS for the photography section in [Silvia’s website](https://silviamaggidesign.com/photography/four-days-in-bordeaux/). A full-fledged Jekyll module, it features responsive images and intuitive touch controls for mobile devices.
 
-### Optimising the stack
+## Optimising the stack
 
 When we [released Silvia's new website](https://silviamaggidesign.com/design/brand-new-website/), the photo galleries relied on two Javascript-based components from Bootstrap 5: one for modal windows and one for carousels. When I worked for UI Farm in London, I used to write pure HTML and CSS alterneatives to accordions, interactive overlays, image galleries and more.
 
 Having always considered [web performance as a design feature](https://web.archive.org/web/20130717022229/http://uifarm.co.uk/responsive-design-framework-performance/) instead of an afterthought, I deemed the use of Javascript for modal windows and carousels a waste of resources. In Silvia's case, it also littered her local environment with a preposterous amount of node.js modules that I wanted to rid of.
 
-### The module
+## The module
 
 First, the end result of this, meaning: what do we have to do in order to add a photo gallery in a page or post:
 
@@ -39,7 +39,7 @@ First, the end result of this, meaning: what do we have to do in order to add a 
 
 Pretty simple. We include an HTML file containing the logic and the markup, while passing two simple parameters: the path to the folder containing the images and a numeric ID. The only requirement is to follow the same naming convention for all the images, where the small low resolution version, used for preview in the page and navigation in the carousel, would have the prefix `thumb-`.
 
-#### Creating the photo gallery thumbnails
+### Creating the photo gallery thumbnails
 
 The first step is to render the list of thumbnails serving as preview. Taking advantage of Jekyll's **static files** feature, I set a default local path for all the images in the `config.yml` file. It's instructing the system to treat each file contained in that path as an image:
 
@@ -96,7 +96,7 @@ All of the above is compiled by simply including this folder in the page:
 
 {% include pattern-figure.html image="/assets/img/gallery-folder.jpg" alt="List of included images in the filesystem" width="431" height="290" %}
 
-#### Creating the modal window
+### Creating the modal window
 
 Before the closing div and section, we include a second pattern containing the modal window and the carousel itself:
 
@@ -172,11 +172,11 @@ The close button is added in an `:after` pseudo-class, including a bit of furthe
 }
 ```
 
-#### Creating the carousel
+### Creating the carousel
 
 The carousel is contained in a couple of `div`s, an unordered list and a navigation pattern. The list element contains the hi-res image, filtered by exclusion with the `unless` condition.
 
-##### Hi-res images
+#### Hi-res images
 
 ```html
 <div class="m2m-carousel-container d-flex justify-content-center">
@@ -205,7 +205,7 @@ To break in down:
   - a filter to add an incremental number and keep the ID different throughout the carousel.
 - There's a placeholder instead of the image in order to share more about the thought process: we initially printed the image path, name, alt tag, size etcetera. Once the module was complete, we realized **the hi-res images needed to be responsive** so that users on small devices could download pictures that weren't larger than their viewport. It was paramount that we avoided one of the widespread reasons why Pagespeed fails pages containing photo galleries.
 
-##### Navigation
+#### Navigation
 
 A navigation row sits at the bottom of the modal window, featuring the thumbnails linking to the related hi-res image above.
 
@@ -231,7 +231,7 @@ A navigation row sits at the bottom of the modal window, featuring the thumbnail
 
 Besides the same liquid logic I've already employed to fetch the correct images and generate the captions, I introduce three new variables. They're all adopted to generate numerically incrementing IDs that keep the navigation in sync with the hi-res images.
 
-#### Mobile functionality
+### Mobile functionality
 
 Through SCSS code, I made sure users could change slide by swiping left or right on the image, respecting any preference set in either the browser or the operating system for `reduced-motion`.
 
@@ -275,7 +275,7 @@ Through SCSS code, I made sure users could change slide by swiping left or right
 }
 ```
 
-#### Further optimization: responsive images
+### Further optimization: responsive images
 
 As stated earlier, once the module was completed we realized to have forgotten about **the issue of large images on small devices**. Since we had already implemented responsive images in the website, I just decided to grab the code to render the hi-res pictures which generates different sizes for different media viewports:
 
@@ -300,9 +300,9 @@ The source code above generates the following HTML:
 
 It renders responsive images inside a `figure` tag, using `srcset` with the smallest resized image used as a fallback. Every time a new gallery is added to a page, Jekyll generates all the resized versions on its own.
 
-### Results
+## Results
 
-#### Testing on all devices
+### Testing on all devices
 
 Tests were successful on all devices, desktop, tablets and smartphones with the browsers:
 
@@ -312,11 +312,11 @@ Tests were successful on all devices, desktop, tablets and smartphones with the 
 
 Swiping on touch devices worked as expected while most browsers on desktop gracefully accepted the scroll snapping.
 
-#### Performance improvements
+### Performance improvements
 
 All tests after the new module was released gave stunning results: despite a total image weight of almost 2 megabytes, Pagespeed on mobile went from `27` to `100`.
 
-### Source code
+## Source code
 
 Check out my public gists for the three files:
 
@@ -326,6 +326,6 @@ Check out my public gists for the three files:
 
 <hr>
 
-<h4>Footnotes</h4>
+<h3>Footnotes</h3>
 
-[^1]: Please not that the checkbox hack is not fully accessible. I need to figure out an alternative.
+[^1]: Please note that the checkbox hack is not fully accessible. I need to figure out an alternative.

@@ -15,10 +15,10 @@ skillset:
 description: 'A pioneer of ratings and reviews services for brands and retailers. Built on WordPress with custom plug-ins and Salesforce integration.'
 permalink: '/project-reevoo/'
 ---
-<div class="notice">
-  <h3>Skills</h3>
+<div class="warning">
+  <h2>Skills</h2>
   {% for skill in page.skillset %}
-  <kbd>{{ skill }}</kbd>
+  <mark>{{ skill }}</mark>
   {% endfor %}
 </div>
 
@@ -43,9 +43,9 @@ The website featured integrations with Salesforce for lead generation and Linked
   </tbody>
 </table>
 
-### Client review
+## Client review
 
 > I had the pleasure of working with UI Farm, as we re-built our corporate website using WordPress while making it responsive. From the very get go, UI Farm were extremely professional and proactive with the build process and worked with us closely as requirements evolved. This ability to adapt changes in an agile manner is a key aspect that differentiates them from other firms. The new website was launched on time and was perfect on all devices, all in all testament to a job well done.
-> <cite>—Deepak Janakiraman, Reevoo C.P.O.</cite>
+> <cite>Deepak Janakiraman, Reevoo C.P.O.</cite>
 
-<a class="button big" href="https://reevoo.com"><strong>Visit the live site</strong></a>
+<a class="button big" href="https://reevoo.com"><strong>visit the live site</strong></a>

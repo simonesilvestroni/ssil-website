@@ -10,7 +10,7 @@ Experienced in front-end development and some back-end, UI design and custom Wor
 
 My current main development tool is **Jekyll** with its Liquid template language, while I design using **Sketch**. Read more about [skills and tools in my resume](/resume/).
 
-<div class="notice">
-  <h3>Note</h3>
+<div class="warning">
+  <h2>Note</h2>
   <p>As I’m focused on my parallel career in audio as a <a href="https://minutestomidnight.co.uk" title="Check out my Minutes to Midnight website">professional game audio sound designer and producer</a>, I’m not accepting web developer roles at the moment.</p>
 </div>

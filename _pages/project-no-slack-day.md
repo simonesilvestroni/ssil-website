@@ -14,10 +14,10 @@ skillset:
 description: 'A yearly reminder of how Slack can also be distracting and counter-productive.'
 permalink: '/project-no-slack-day/'
 ---
-<div class="notice">
-  <h3>Skills</h3>
+<div class="warning">
+  <h2>Skills</h2>
   {% for skill in page.skillset %}
-  <kbd>{{ skill }}</kbd>
+  <mark>{{ skill }}</mark>
   {% endfor %}
 </div>
 
@@ -40,4 +40,4 @@ A cool initiative by an elusive client of mine, No Slack Day is a yearly reminde
   </tbody>
 </table>
 
-<a class="button big" href="https://web.archive.org/web/20230402145306/https://www.noslackday.org/"><strong>Visit the live site</strong></a>
+<a class="button big" href="https://web.archive.org/web/20230402145306/https://www.noslackday.org/"><strong>visit the live site</strong></a>

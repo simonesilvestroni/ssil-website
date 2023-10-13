@@ -7,7 +7,7 @@ description: 'I’ve been a web designer and developer for over twenty years. He
 permalink: '/resume/'
 ---
 <div class="notice">
-  <h3>Content</h3>
+  <h2>Content</h2>
   <ul>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#work-experience">Work Experience</a></li>
@@ -16,7 +16,7 @@ permalink: '/resume/'
   </ul>
 </div>
 
-### Skills
+## Skills
 
 {: .list-hr }
 - I've been crafting websites from scratch with <kbd>HTML</kbd> and <kbd>CSS</kbd> since 1998, later adopting dynamic languages such as <kbd>PHP</kbd> and Shopify's <kbd>Liquid</kbd> to handle the logic and generate the markup, and <kbd>SASS</kbd> for stylesheets.
@@ -26,12 +26,13 @@ permalink: '/resume/'
 - My code editor of choice is the cross-platform <kbd>Sublime Text</kbd>, using <kbd>git</kbd> as the preferred versioning system.
 - I make a point of putting <kbd>performance</kbd>, <kbd>usability</kbd> and <kbd>sustainability</kbd> at the forefront. I strongly dislike the overuse of technology such as <kbd>Javascript</kbd> in modern web development.
 
-### Work Experience
+## Work Experience
 
-<div class="notice resume-experience">
-  <h4>Web designer and developer at <a href="https://minutestomidnight.co.uk">Minutes to Midnight</a></h4>
-  <span class="small">2017-present (Cambridge/Milan)</span>
+<div class="warning">
+  <h3>Web designer and developer at <a href="https://minutestomidnight.co.uk">Minutes to Midnight</a></h3>
+  <p class="small">2017-present (Cambridge/Milan)</p>
   <p>Design, front-end development, deployment and maintenance.</p>
+  <br>
   <h4>Recent projects</h4>
   <ul>
     <li><a href="{{ site.url }}/project-responsive-photogallery-carousel/">Pure HTML and CSS responsive carousel in Jekyll</a></li>
@@ -45,11 +46,12 @@ permalink: '/resume/'
   </ul>
 </div>
 
-<div class="notice resume-experience">
-  <h4>Web designer and developer at <a href="https://web.archive.org/web/20220424052100/https://uifarm.co.uk/">UI Farm Ltd</a></h4>
-  <span class="small">2012-2017 (London)</span>
+<div class="warning">
+  <h3>Web designer and developer at <a href="https://web.archive.org/web/20220424052100/https://uifarm.co.uk/">UI Farm Ltd</a></h3>
+  <p class="small">2012-2017 (London)</p>
   <p>Co-founder, web designer and UI developer, I worked for many clients, such as Reevoo, Not On The High Street, UniCredit, Elite, APM, Women Management.</p>
   <p>At UI Farm, we pioneered responsive web design, and I contributed to building a bespoke responsive framework  on top of WordPress (theme, child theme and custom plug-ins), featuring a performance-first approach.</p>
+  <br>
   <h4>Relevant projects</h4>
   <ul>
     <li><a href="{{ site.url }}/project-reevoo/">Reevoo</a></li>
@@ -61,42 +63,43 @@ permalink: '/resume/'
   </ul>
 </div>
 
-<div class="notice resume-experience">
-  <h4>Web designer and developer at <a href="http://web.archive.org/web/20120302142629/http://www.bodog.eu/">Bodog</a></h4>
-  <span class="small">2011-2012 (London)</span>
+<div class="warning">
+  <h3>Web designer and developer at <a href="http://web.archive.org/web/20120302142629/http://www.bodog.eu/">Bodog</a></h3>
+  <p class="small">2011-2012 (London)</p>
   <p>Within an Agile environment, I developed gaming and e-sport applications with the accompanying websites — including the then flagship slots.com — using SASS, Drupal (PHP), Javascript, <abbr title="Linux, Apache, MySQL, PHP">LAMP</abbr>, <abbr title="Subversion">SVN</abbr>.</p>
 </div>
 
-<div class="notice resume-experience">
-  <h4>Web designer and developer at New Energy / Part of Accenture</h4>
-  <span class="small">2005-2011 (Milan)</span>
+<div class="warning">
+  <h3>Web designer and developer at New Energy / Part of Accenture</h3>
+  <p class="small">2005-2011 (Milan)</p>
   <p>Initially working for a subsidiary company, I fully joined New Energy as a UI developer, ending up leading a multi-disciplinary UX team. Within the role, I contributed to <strong>UniCredit</strong>’s corporate websites, their online banking system, the online acquisition landing pages and forms.</p>
   <p>I also produced mockups and working prototypes for the in-house usability tests; helped setting up the internal usability lab and led the A/B testing workflow, including <abbr title="Research and development">R&amp;D</abbr> for eye-tracking.</p>
 </div>
 
-<div class="notice resume-experience">
-  <h4>Web designer and developer at Playstos Entertainment</h4>
-  <span class="small">2000-2005 (Milan)</span>
+<div class="warning">
+  <h3>Web designer and developer at Playstos Entertainment</h3>
+  <p class="small">2000-2005 (Milan)</p>
   <p>While I was the team leader and sound designer for the for PlayStation 2 video game <em>Ruff Trigger: The Vanocore Conspiracy</em>, published by Natsume, I was also in charge of the design and development of the company website, its subsidiaries and all the games websites.</p>
+  <br>
   <h4>Projects</h4>
   <ul>
     <li><a href="https://minutestomidnight.co.uk/work/sound-design/ruff-trigger-playstation2-game/">Ruff Trigger console game</a></li>
   </ul>
 </div>
 
-### Languages
+## Languages
 
 - **Italian**: native
 - **English**: bilingual proficiency
 - **German**: elementary
 
-### Endorsements
+## Endorsements
 
 Check out the [full list on **LinkedIn**](https://www.linkedin.com/in/simonesilvestroni/).
 
 {%- for endorsement in site.endorsements %}
 <blockquote>
   <p>{{ endorsement.quote }}</p>
-  <cite>&mdash; {{ endorsement.name }}, <a href="{{ endorsement.url }}">{{ endorsement.role }}</a></cite>
+  <cite>{{ endorsement.name }}, <a href="{{ endorsement.url }}">{{ endorsement.role }}</a></cite>
 </blockquote>
 {%- endfor %}

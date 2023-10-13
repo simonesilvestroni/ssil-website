@@ -14,10 +14,10 @@ skillset:
 description: 'A leading European bank with a network spanning 50 markets. The brief: re-design their landing pages for new customer acquisitions.'
 permalink: '/project-unicredit/'
 ---
-<div class="notice">
-  <h3>Skills</h3>
+<div class="warning">
+  <h2>Skills</h2>
   {% for skill in page.skillset %}
-  <kbd>{{ skill }}</kbd>
+  <mark>{{ skill }}</mark>
   {% endfor %}
 </div>
 
@@ -25,7 +25,7 @@ The focus of the brief was to re-design UniCredit’s existing online landing pa
 
 We used our custom responsive framework and [new workflow]({{ site.url }}/a-modern-workflow-for-the-multi-device-web/) to build PHP modules and add **progressive enhancement** functionality through Javascript on top of our designer's vision. The landing pages converted leads connecting to UniCredit's acquisition forms.
 
-### Client review
+## Client review
 
 > UI Farm’s innovative workflow and unique skills has given us a very clear insight into our customers’ behaviour and preferences, which has considerably boosted our account application conversions. Thanks to UI Farm’s approach, we have been able to significantly improve the experience delivered to our customers and prospects, and make changes that may have seemed minor to us but have resulted in significant conversion lifts. UI Farm has truly changed our approach to Interaction Design.
-> <cite>— Gabriele Rosati, [UX and interaction design manager at UniCredit](https://www.linkedin.com/in/rosati/)</cite>
+> <cite>Gabriele Rosati, [UX and interaction design manager at UniCredit](https://www.linkedin.com/in/rosati/)</cite>

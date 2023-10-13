@@ -14,16 +14,16 @@ skillset:
 description: 'Silvia Maggi is an expert in designing for accessibility and usability. Curator of the inspiration series and newsletter ‘Design, Digested’.'
 permalink: '/project-silvia-maggi-design/'
 ---
-<div class="notice">
-  <h3>Skills</h3>
+<div class="warning">
+  <h2>Skills</h2>
   {% for skill in page.skillset %}
-  <kbd>{{ skill }}</kbd>
+  <mark>{{ skill }}</mark>
   {% endfor %}
 </div>
 
 As Silvia's main focus is on **accessibility**, **usability** and **sustainability**, my input on adopting Jekyll and optimising through modules such as `purgeCSS` ensured great results.
 
-### Performance
+## Performance
 
 <table>
   <thead>
@@ -42,4 +42,4 @@ As Silvia's main focus is on **accessibility**, **usability** and **sustainabili
   </tbody>
 </table>
 
-<a class="button big" href="https://silviamaggidesign.com/"><strong>Visit the live site</strong></a>
+<a class="button big" href="https://silviamaggidesign.com/"><strong>visit the live site</strong></a>

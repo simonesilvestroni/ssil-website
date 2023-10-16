@@ -851,8 +851,8 @@ pre span {
   border: 2px solid var(--accent-bg);
   box-shadow: 0 12px 0 -6px var(--accent-bg);
 }
-.warning::hover {
-  box-shadow: 0;
+.warning:hover {
+  box-shadow: none;
 }
 .warning img {
   display: block;

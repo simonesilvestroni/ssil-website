@@ -28,7 +28,7 @@
   --sans-font: 'Molde', system-ui, sans-serif;
   --serif-font: 'Georgia', 'URW Palladio L', P052, serif;
   --mono-font: monospace;
-  --standard-border-radius: 5px;
+  --standard-border-radius: 8px;
   --navspacer-large: 2rem;
   --navspacer-small: 0.9rem;
   /* ----------------------------------------
@@ -147,14 +147,15 @@ sub {
  * $HEADER
  * -------------------------------- */
 body > header {
-  padding-top: 1.5rem;
+  padding: 2.5rem 0 1rem 0;
+  border-bottom: 2px solid var(--accent-bg);
 }
 
 /* --------------------------------
  * $MAIN
  * -------------------------------- */
 main {
-  padding: 5rem 0;
+  padding: 4rem 0 2.5rem 0;
 }
 
 /* --------------------------------
@@ -218,7 +219,7 @@ nav[aria-label="Main navigation"] ul {
   flex-wrap: wrap;
   list-style-type: none;
   column-gap: var(--navspacer-large);
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
   padding-inline-start: 0;
 }
 nav[aria-label="Main navigation"] ul li {
@@ -680,6 +681,7 @@ pre,
 kbd,
 samp {
   font-family: var(--mono-font);
+  font-size: 90%;
 }
 kbd {
   color: var(--preformatted);
@@ -821,7 +823,7 @@ pre span {
   margin: 3rem 0;
   padding: 1.5rem;
   border-radius: var(--standard-border-radius);
-  border: 1px solid var(--border);
+  border: 2px solid var(--accent-bg);
   box-shadow: 5px 5px var(--light-bg);
   background-color: var(--bg);
 }
@@ -846,7 +848,8 @@ pre span {
   margin: 2.5rem 0;
   padding: 1.5rem;
   background-color: var(--bg);
-  box-shadow: 0 12px 0 -8px var(--accent-bg);
+  border: 2px solid var(--accent-bg);
+  box-shadow: 0 12px 0 -6px var(--accent-bg);
 }
 .warning::hover {
   box-shadow: 0;
@@ -941,6 +944,14 @@ pre span {
     flex: auto;
   }
 }
+header a.logo {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: var(--text);
+}
 .logo {
   margin-bottom: 4rem;
 }
@@ -948,14 +959,14 @@ pre span {
   position: relative;
   height: 200px;
   width: 200px;
-  background: linear-gradient(#4CAAA4, #C5B531, #8E8CC7);
+  background: linear-gradient(#C5B531, #808080, #CCCCCC);
   border-radius: 50%;
 }
 .outer-circle span {
   position: absolute;
   height: 200px;
   width: 200px;
-  background: linear-gradient(#4CAAA4, #C5B531, #8E8CC7);
+  background: linear-gradient(#C5B531, #808080, #CCCCCC);
   border-radius: 50%;
 }
 .outer-circle span:nth-child(1) { filter: blur(5px); }

@@ -11,11 +11,10 @@
       preload
     '''
     Content-Security-Policy = '''
-      default-src 'self' https://webmention.io;
-      style-src 'self' 'unsafe-inline';
+      default-src 'self';
+      style-src 'self';
       img-src 'self' w3.org/svg/2000;
       script-src 'self';
-      frame-src https://yewtu.be/embed/
     '''
     Permissions-Policy = '''
       accelerometer=(none),

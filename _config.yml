@@ -3,19 +3,12 @@ url: "https://simonesilvestroni.com"
 canonical_url: "https://simonesilvestroni.com"
 lang: "en-GB"
 title: "Simone Silvestroni"
-description: 'Hey! I’m Simone, a seasoned web designer and developer based in Cambridge, UK. I’ve been designing and coding <strong>accessible and performant websites</strong> since 1998, using HTML, CSS, PHP, WordPress, and now Jekyll and Jamstack.'
-tagline: 'Web designer and developer'
-pitch: 'Currently on a hiatus, as I’m focused on my career in game audio sound design.'
+description: 'Hey! I’m Simone, a seasoned web designer and developer based in Cambridge, UK. I’ve been designing and coding <strong>accessible and performant websites</strong> since 1998, using HTML, CSS, PHP, WordPress, and now Jekyll and Jamstack. Trading as <strong>Minutes to Midnight</strong>.'
 logo: 
   url: "/assets/img/minutestomidnight-glyph.svg"
   alt: "Minutes to Midnight glyph logo"
   width: 180
   height: 180
-opengraph:
-  url: "/assets/img/ssil-og.jpg"
-mastodon:
-  instance: indieweb.social
-  username: m2m
 
 # -------------------
 # Exclusions
@@ -26,7 +19,7 @@ exclude:
 # -------------------
 # Inclusions
 # -------------------
-include: ["_pages", "_redirects"]
+include: ["_redirects"]
 
 # -------------------
 # SEO
@@ -51,20 +44,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-# -------------------
-# Work endorsements
-# -------------------
-endorsements:
-  - name: 'Neil Kenneth Palmer'
-    role: 'VP of product development at C6 Marketing'
-    url: 'https://www.linkedin.com/in/neil-k-palmer/'
-    quote: 'Simply put, Simone is one of the finest, and most passionate front-end developers that I have every come across. His knowledge on UI and UX is vast and combine this with his front-end development skills, he is one of the finest front end developers out there. It was a pleasure to manage and work with Simone and I hope to get the chance again in the future.'
-  - name: 'Michelle Anderson'
-    role: 'staff engineer at Deliveroo'
-    url: 'https://www.linkedin.com/in/michelledangeranderson/'
-    quote: 'Simone was an integral member of our team. His passion for the web and careful and persistent work ethic meant that he delivered consistently above expectations. His initiative is impressive. His experience makes him an expert in his field; has a firm understanding of front end web. With his sharp sense of humor, he would make a wonderful addition to any web team!'
-  - name: 'Gabriele Rosati'
-    role: 'UX and interaction design manager at UniCredit'
-    url: 'https://www.linkedin.com/in/rosati/'
-    quote: 'My experience of working with Simone has always been very positive and enjoyable. Simone always takes a pragmatic and investigative approach to finding solutions for our needs and has very friendly and helpful attitude. His attention to detail makes him always deliver perfect coded products, saving us time and concerns on the web projects he develops.'

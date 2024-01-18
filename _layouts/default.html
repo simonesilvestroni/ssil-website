@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}" dir="ltr" itemscope itemtype="http://schema.org/WebPage">
 <head>
-<title>{%- include site-title.html -%}</title>
-{% include site-meta.html %}
+<title>{{ site.title }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow, noai, noimageai">
+<meta name="description" content="{{ site.description | strip_html }}">
 {% if jekyll.environment == "production" -%}
 <link rel="stylesheet" href="{{ site.url }}/assets/css/morula.min.css">
 {% else -%}
@@ -15,13 +19,8 @@
 <link rel="canonical" href="{{ page.url |  replace:'index.html','' | absolute_url }}">
 </head>
 <body class="h-entry">
-  <header>
-    <a class="p-name logo" href="{{ site.url }}" title="Go back to the home page">Simone Silvestroni</a>
-    {% include site-nav.html %}
-  </header>
   <main class="e-content">
     {{ content }}
   </main>
-  {% include site-footer.html %}
 </body>
 </html>

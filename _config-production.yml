@@ -1,3 +1,9 @@
+include: [".htaccess"]
+
+# -------------------
+# Exclusions
+# -------------------
 exclude:
   - README.md
-  - assets/css/morula.css
+  - SSIL.sublime-project
+  - SSIL.sublime-workspace

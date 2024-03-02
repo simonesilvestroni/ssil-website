@@ -17,18 +17,6 @@ mastodon:
   username: m2m
 
 # -------------------
-# Exclusions
-# -------------------
-exclude:
-  - README.md
-  - SSIL.sublime-project
-
-# -------------------
-# Inclusions
-# -------------------
-include: ["_redirects"]
-
-# -------------------
 # SEO
 # -------------------
 timezone: Europe/Berlin

@@ -1,0 +1,46 @@
+# Content security policy
+Header add X-Frame-Options "SAMEORIGIN"
+Header add X-XSS-Protection "1; mode=block"
+Header add X-Content-Type-Options "nosniff"
+Header add Referrer-Policy "no-referrer"
+Header add Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
+Header add Content-Security-Policy "default-src 'self';style-src 'self' 'unsafe-inline' https://simonesilvestroni.com;img-src 'self' w3.org/svg/2000;script-src 'self';object-src 'self';frame-ancestors 'self'"
+Header add Permissions-Policy "accelerometer=(self),autoplay=(self),camera=(self),encrypted-media=(self),fullscreen=(self),geolocation=(self),gyroscope=(self),magnetometer=(self),microphone=(self),midi=(self),payment=(self),usb=(self),picture-in-picture=(self)"
+
+# Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  # Video
+  ExpiresByType video/webm "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+  # Fonts
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  # Others
+  ExpiresByType application/pdf "access plus 1 year"
+</IfModule>
+
+# Redirects
+Redirect 301 /projects/  https://minutestomidnight.co.uk/blog/
+Redirect 301 /ethics/  https://minutestomidnight.co.uk/blog/personal-manifesto/
+Redirect 301 /colophon/  https://minutestomidnight.co.uk/colophon/
+Redirect 301 /blogroll/  https://minutestomidnight.co.uk/links/
+Redirect 301 /archive/ https://minutestomidnight.co.uk/sitemap/
+Redirect 301 /rss/ https://minutestomidnight.co.uk/rss/
+Redirect 301 /notes/ https://minutestomidnight.co.uk/notes/
+Redirect 301 /search/  https://minutestomidnight.co.uk/search/
+Redirect 301 /uses/  https://minutestomidnight.co.uk/uses/

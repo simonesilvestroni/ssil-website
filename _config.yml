@@ -3,18 +3,25 @@ url: "https://simonesilvestroni.com"
 canonical_url: "https://simonesilvestroni.com"
 lang: "en-GB"
 title: "Simone Silvestroni"
-description: 'Hey! I’m Simone, a seasoned web designer and developer based in Cambridge, UK. I’ve been designing and coding <strong>accessible and performant websites</strong> since 1998, using HTML, CSS, PHP, WordPress, and now Jekyll and Jamstack. Trading as <strong>Minutes to Midnight</strong>.'
+description: 'A gen X with a straight to the point attitude, I use a mix of instinct and academic learning to juggle between art and technology in equal measure. Based in Cambridge (UK), I work in <strong>web design and sound production</strong> under the moniker <a href="https://minutestomidnight.co.uk">Minutes to Midnight</a>.'
 logo: 
   url: "/assets/img/minutestomidnight-glyph.svg"
   alt: "Minutes to Midnight glyph logo"
   width: 180
   height: 180
+author:
+  name: Simone Silvestroni
+  email: hello@minutestomidnight.co.uk
+mastodon:
+  instance: sonomu.club
+  username: m2m
 
 # -------------------
 # Exclusions
 # -------------------
 exclude:
   - README.md
+  - SSIL.sublime-project
 
 # -------------------
 # Inclusions

@@ -1,19 +1,6 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc title="Homepage">{{ site.url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-  </url>
-  {%- assign pages = site.pages | where:"layout", "page" -%}
-  {%- for page in pages %}
-  {%- unless page.sitemap == false %}
-  <url>
-    <loc title="{{ page.title }}">{{ site.url }}{{ page.url }}</loc>
-    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
-  </url>
-  {%- endunless -%}
-  {% endfor -%}
-</urlset>
+    <loc title="Homepage">https://simonesilvestroni.com</loc>
+    <lastmod>2024-09-27T21:21:13+02:00</lastmod>
+  </url></urlset>

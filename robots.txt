@@ -1,6 +1,3 @@
----
-layout: none
----
 User-Agent: ChatGPT-User
 Disallow: /
 
@@ -22,4 +19,4 @@ Disallow: /
 User-agent: yandex
 Disallow: /
 
-Sitemap: {{ site.url}}/sitemap.xml
+Sitemap: https://simonesilvestroni.com/sitemap.xml

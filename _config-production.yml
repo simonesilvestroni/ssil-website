@@ -1,9 +1,0 @@
-include: [".htaccess"]
-
-# -------------------
-# Exclusions
-# -------------------
-exclude:
-  - README.md
-  - SSIL.sublime-project
-  - SSIL.sublime-workspace
